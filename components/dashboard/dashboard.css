@@ -1,0 +1,17 @@
+.Dashboard {
+  display: flex;
+  grid-gap: 1vw;
+}
+
+.DashboardSpacing {
+  display: flex;
+}
+
+.SalutationSpacing {
+  display: flex;
+  justify-content: space-between;
+}
+
+br {
+  line-height: 1vh;
+}

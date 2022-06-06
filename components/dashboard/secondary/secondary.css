@@ -1,0 +1,11 @@
+.SecondaryContainer {
+  /* Container Shape */
+  height: 32vh;
+  width: 24vw;
+
+  /* Container Coloring */
+  background-color: #171717;
+
+  /* Container Styling */
+  border-radius: 25px;
+}

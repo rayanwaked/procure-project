@@ -1,0 +1,11 @@
+.NavigationContainer {
+  /* Container Shape */
+  height: 100vh;
+  width: 20vw;
+
+  /* Container Coloring */
+  background-color: #171717;
+
+  /* Container Spacing */
+  margin-right: 2vw;
+}

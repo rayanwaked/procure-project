@@ -1,0 +1,16 @@
+.TertiaryContainer {
+  /* Container Shape */
+  height: 16vh;
+  width: 24vw;
+
+  /* Container Coloring */
+  background-color: #171717;
+
+  /* Container Styling */
+  border-radius: 25px;
+}
+
+.TertiarySpacing {
+  display: flex;
+  grid-gap: 1vw;
+}

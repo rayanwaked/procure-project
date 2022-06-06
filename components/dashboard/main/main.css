@@ -1,0 +1,11 @@
+.Container {
+  /* Container Shape */
+  height: 32vh;
+  width: 49vw;
+
+  /* Container Coloring */
+  background-color: #171717;
+
+  /* Container Styling */
+  border-radius: 25px;
+}

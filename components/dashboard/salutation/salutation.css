@@ -1,0 +1,19 @@
+.Salutation {
+  text-align: left;
+}
+
+h1 {
+  /* H1 Coloring */
+  color: #cecdcc;
+
+  /* H1 Styling */
+  font-weight: 600;
+}
+
+h4 {
+  /* H4 Coloring */
+  color: #6b6a6b;
+
+  /* H4 Styling */
+  font-weight: 500;
+}
