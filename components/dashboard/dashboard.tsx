@@ -19,7 +19,6 @@ export default function Dashboard() {
         <Salutation />
         <Search />
       </div>
-      <br />
       <div className="Dashboard">
         <Tertiary />
       </div>

@@ -1,11 +1,58 @@
 .NavigationContainer {
   /* Container Shape */
-  height: 100%;
-  width: 20vw;
+  height: 101%;
+  width: 14vw;
+  padding: 1vh 2vw 2vh 2vw;
 
   /* Container Coloring */
   background-color: #171717;
 
   /* Container Spacing */
-  margin-right: 2vw;
+  margin-right: 3vw;
+}
+
+.NavigationElements {
+  display: grid;
+}
+
+.NavigationFragments {
+  /* Item Spacing */
+  width: 10vw;
+  display: flex;
+  align-items: center;
+
+  /* Text Coloring */
+  color: #fff;
+}
+
+.NavigationIcon {
+  padding-right: 1vw;
+}
+
+.NavigationText {
+  padding-left: 1vw;
+  color: #858585;
+  font-weight: 500;
+}
+
+.NavigationSection {
+  font-size: 1vw;
+  font-weight: 500;
+  color: #858585;
+}
+
+.NavigationTitle {
+  font-size: 2vw;
+  font-weight: 400;
+  margin-left: 2vw;
+}
+
+.Profile {
+  position: absolute;
+  bottom: 0;
+}
+
+.br {
+  display: block;
+  margin-bottom: 1em;
 }
