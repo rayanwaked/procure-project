@@ -1,22 +1,64 @@
 .DashboardPickerContainer {
-  /* Container Shape */
-  height: 8vh;
-  width: 13.725vw;
+    /* Container Shape */
+    height: 8vh;
+    width: 13.725vw;
 
-  /* Containg Spacing */
-  margin-top: 4vh;
-  margin-bottom: 3vh;
+    /* Containg Spacing */
+    margin-top: 4vh;
+    margin-bottom: 3vh;
 
-  /* Container Coloring */
-  background-color: #3a3a3a;
+    /* Container Coloring */
+    background-color: #3a3a3a;
 
-  /* Container Styling */
-  border-radius: 10px;
+    /* Container Styling */
+    border-radius: 10px;
 }
 
 hr.divider {
-  background: #252525 no-repeat;
-  border: 0;
-  height: 0.1vh;
-  width: 100%;
+    background: #252525 no-repeat;
+    border: 0;
+    height: 0.1vh;
+    width: 100%;
+}
+
+.Header {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.Subheader {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+img {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 2.5vw;
+    width: 2.5vw;
+    margin-right: 1vw;
+}
+
+.DashboardPickerFragments {
+    /* Item Spacing */
+
+    /* Element Spacing */
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: flex-start;
+
+    /* Element Margins */
+    margin-top: 1.75vh;
+
+    /* Text Coloring */
+    color: #fff;
+}
+
+.DashboardFragmentsSeparate {
+    display: inline-flex;
+    align-items: flex-start;
+    align-content: flex-start;
 }
