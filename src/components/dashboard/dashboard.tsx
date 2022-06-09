@@ -1,14 +1,14 @@
 /* Import Styles */
-import "../../src/styles.css";
+import "../../styles.css";
 import "./dashboard.css";
 
 /* Import Files */
-import Main from "./main/main.tsx";
-import Secondary from "./secondary/secondary.tsx";
-import Tertiary from "./tertiary/tertiary.tsx";
-import Quaternary from "./quaternary/quaternary.tsx";
-import Salutation from "./salutation/salutation.tsx";
-import Search from "./search/search.tsx";
+import Main from "./main/main";
+import Secondary from "./secondary/secondary";
+import Tertiary from "./tertiary/tertiary";
+import Quaternary from "./quaternary/quaternary";
+import Salutation from "./salutation/salutation";
+import Search from "./search/search";
 
 /* Code */
 export default function Dashboard() {

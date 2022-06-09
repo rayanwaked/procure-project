@@ -1,19 +1,18 @@
 /* Import Styles */
-import "../../../src/styles.css";
+import "../../../styles.css";
 import "./navigation.css";
 
 /* Import Icons */
-import { LogoIcon } from "../../../assets/branding/logo.tsx";
-import { DashboardIcon } from "../../../assets/navigation/dashboard.tsx";
-import { ChatIcon } from "../../../assets/navigation/chat.tsx";
-import { OverviewIcon } from "../../../assets/navigation/overview.tsx";
-import { ReportIcon } from "../../../assets/navigation/report.tsx";
-import { SettingsIcon } from "../../../assets/navigation/settings.tsx";
-import { Fragment } from "react";
+import { LogoIcon } from "../../../assets/branding/logo";
+import { DashboardIcon } from "../../../assets/navigation/dashboard";
+import { ChatIcon } from "../../../assets/navigation/chat";
+import { OverviewIcon } from "../../../assets/navigation/overview";
+import { ReportIcon } from "../../../assets/navigation/report";
+import { SettingsIcon } from "../../../assets/navigation/settings";
 
 /* Import Files */
-import DashboardPicker from "./dashboard-picker/dashboard-picker.tsx";
-import Profile from "./profile/profile.tsx";
+import DashboardPicker from "./dashboard-picker/dashboard-picker";
+import Profile from "./profile/profile";
 
 /* Code */
 export default function Navigation() {
@@ -50,7 +49,7 @@ export default function Navigation() {
             <p className="NavigationText"> Chat </p>
           </div>
 
-          {/* Shortchuts */}
+          {/* Shortcuts */}
           <span className="br" />
           <div className="NavigationFragments">
             <p className="NavigationSection"> SHORTCUTS </p>
@@ -70,7 +69,7 @@ export default function Navigation() {
           </div>
 
           {/* Profile */}
-          <div className="NavigationFragments" className="Profile">
+          <div className="NavigationFragments">
             <Profile />
           </div>
         </div>

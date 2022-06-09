@@ -2,8 +2,8 @@
 import "./styles.css";
 
 /* Import Files */
-import Dashboard from "../components/dashboard/dashboard.tsx";
-import Navigation from "../components/global/navigation/navigation.tsx";
+import Dashboard from "./components/dashboard/dashboard";
+import Navigation from "./components/global/navigation/navigation";
 
 /* Code */
 export default function App() {

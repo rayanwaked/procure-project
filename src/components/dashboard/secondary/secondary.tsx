@@ -1,5 +1,5 @@
 /* Import Styles */
-import "../../../src/styles.css";
+import "../../../styles.css";
 import "./secondary.css";
 
 /* Import Files */
