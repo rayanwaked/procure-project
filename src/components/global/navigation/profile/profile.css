@@ -1,64 +1,65 @@
 .ProfileContainer {
-  /* Container Shape */
-  height: 8vh;
-  width: 100%;
+    /* Container Shape */
+    height: 8vh;
+    width: 100%;
 
-  /* Container Spacing */
-  margin-top: 1vh;
-  margin-bottom: 3vh;
+    /* Container Spacing */
+    margin-top: 1vh;
+    margin-bottom: 3vh;
 
-  /* Container Coloring */
+    /* Container Coloring */
 
-  /* Container Styling */
-  border-radius: 10px;
+    /* Container Styling */
+    border-radius: 10px;
 
-  display: inline-flex;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .ProfileFragments {
-  /* Item Spacing */
-  width: 10vw;
+    /* Item Spacing */
+    width: 10vw;
 
-  /* Element Spacing */
-  display: inline-flex;
-  justify-content: flex-start;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+    /* Element Spacing */
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 
-  /* Element Margins */
-  margin-right: 2vw;
+    /* Element Margins */
+    margin-right: -1vw;
 
-  /* Text Coloring */
-  color: #fff;
+    /* Text Coloring */
+    color: #fff;
 }
 
 .ProfileFragmentsSeperate {
-  display: inline-flex;
-  align-items: center;
-  align-content: center;
-  text-align: center;
+    display: inline-flex;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
-p {
-  color: #fff;
-  white-space: nowrap;
+.ProfileName {
+    color: #fff;
+    white-space: nowrap;
+    margin-left: -.4vw;
 }
 
 hr.divider {
-  background: #252525 no-repeat;
-  border: 0;
-  height: 0.1vh;
-  width: 100%;
+    background: #252525 no-repeat;
+    border: 0;
+    height: 0.1vh;
+    width: 100%;
 }
 
 img {
-  border-radius: 50%;
-  object-fit: cover;
-  height: 2.5vw;
-  width: 2.5vw;
-  margin-right: 1vw;
+    border-radius: 50%;
+    object-fit: cover;
+    height: 2.2vw;
+    width: 2.2vw;
+    margin-right: 1vw;
 }

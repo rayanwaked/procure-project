@@ -1,14 +1,34 @@
 .SearchContainer {
-  /* Container Shape */
-  height: 6vh;
-  width: 12vw;
+    /* Container Shape */
+    height: 6vh;
+    width: 12vw;
 
-  /* Containg Spacing */
-  margin-top: 2vh;
+    /* Container Spacing */
+    margin-top: 1vh;
 
-  /* Container Coloring */
-  background-color: #171717;
+    /* Container Coloring */
+    background-color: #171717;
 
-  /* Container Styling */
-  border-radius: 25px;
+    /* Container Styling */
+    border-radius: 25px;
+}
+
+.SearchContainerFragments {
+    /* Container Shape */
+    height: 100%;
+
+    /* Alining Elements */
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+p {
+    margin-left: .5vw;
+    font-size: .8vw;
+    font-weight: 100;
+    color: #858585;
 }
