@@ -1,16 +1,16 @@
 .SearchContainer {
     /* Container Shape */
-    height: 6vh;
+    height: 5vh;
     width: 12vw;
 
     /* Container Spacing */
-    margin-top: 1vh;
+    margin-top: 2vh;
 
     /* Container Coloring */
     background-color: #171717;
 
     /* Container Styling */
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .SearchContainerFragments {
