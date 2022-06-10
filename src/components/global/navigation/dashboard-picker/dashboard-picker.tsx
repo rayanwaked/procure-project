@@ -26,13 +26,17 @@ export default function DashboardPicker() {
                              alt="Icon"
                              className="DashboardPickerImage" />
 
-                        <p className="DashboardHeader"> Procure <br /> general team</p>
+                        <div style={{lineHeight: "0.8vh"}}>
+                            <p className="DashboardHeader"><b>Procure</b></p>
+                            <br />
+                            <p className="DashboardHeader"> general team </p>
+                        </div>
                     </div>
 
                     { /* Dropdown */}
                     <div style={{
                         display: "flex",
-                        marginLeft: "1.4vw",
+                        marginLeft: "2vw",
                         marginTop: "-2.4vh",
                         width: "100%",
                         height: "8vh",

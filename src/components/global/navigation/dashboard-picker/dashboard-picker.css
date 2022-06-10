@@ -1,7 +1,7 @@
 .DashboardPickerContainer {
     /* Container Shape */
     height: 6vh;
-    width: 9.725vw;
+    width: 11.725vw;
 
     /* Containg Spacing */
     margin-top: 4vh;
@@ -29,7 +29,7 @@ hr.divider {
     text-align: left;
 
     /* Text Styling */
-    font-size: 0.6vw;
+    font-size: 0.7vw;
     color: #fff;
     white-space: nowrap;
 }
@@ -45,7 +45,7 @@ hr.divider {
     object-fit: cover;
     height: 1.8vw;
     width: 1.8vw;
-    margin-right: .5vw;
+    margin-right: .8vw;
 }
 
 .DashboardPickerFragments {

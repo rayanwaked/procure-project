@@ -1,7 +1,7 @@
 .NavigationContainer {
     /* Container Shape */
     height: 97vh;
-    width: 10vw;
+    width: 12vw;
     padding: 1vh 2vw 2vh 2vw;
 
     /* Container Coloring */
@@ -17,7 +17,7 @@
 
 .NavigationFragments {
     /* Item Spacing */
-    width: 10vw;
+    width: 12vw;
     display: flex;
     align-items: center;
 
