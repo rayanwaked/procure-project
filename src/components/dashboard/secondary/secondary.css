@@ -1,11 +1,45 @@
+/* Background Shape */
 .SecondaryContainer {
-  /* Container Shape */
-  height: 32vh;
-  width: 24vw;
+    /* Container Shape */
+    height: 32vh;
+    width: 24vw;
 
-  /* Container Coloring */
-  background-color: #171717;
+    /* Container Coloring */
+    background-color: #171717;
 
-  /* Container Styling */
-  border-radius: 25px;
+    /* Container Styling */
+    border-radius: 25px;
+}
+
+/* Align Elements Inside Shape */
+.SecondaryElements {
+    display: grid;
+}
+
+/* Element Specific Alignments */
+.SecondaryFragments {
+    /* Item Spacing */
+    display: flex;
+    align-content: flex-start;
+    align-items: center;
+    text-align: right;
+
+    /* Text Coloring */
+    color: #fff;
+}
+
+/* Text Styles */
+.SecondaryTitle {
+    color: white;
+    font-size: .9vw;
+    font-weight: 600;
+    margin-left: 1.4vw;
+    margin-top: 1.4vw;
+    margin-bottom: 0vw;
+}
+
+.SecondarySubtitle {
+    margin-left: 1.4vw;
+    margin-bottom: 1.4vw;
+    margin-top: 0.8vh;
 }

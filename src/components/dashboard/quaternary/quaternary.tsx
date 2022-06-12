@@ -6,13 +6,13 @@ import "./quaternary.css";
 
 /* Code */
 export default function Quaternary() {
-  return (
-    <div className="Quaternary">
-      <div className="QuaternarySpacing">
-        <div className="QuaternaryContainer"></div>
-        <div className="QuaternaryContainer"></div>
-        <div className="QuaternaryContainer"></div>
-      </div>
-    </div>
-  );
+    return (
+        <div className="Quaternary">
+            <div className="QuaternarySpacing">
+                <div className="QuaternaryContainer"></div>
+                <div className="QuaternaryContainer"></div>
+                <div className="QuaternaryContainer"></div>
+            </div>
+        </div>
+    );
 }
