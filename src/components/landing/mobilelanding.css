@@ -45,5 +45,12 @@
 
     .HeroBackdrop {
         width: 90%;
+        height: 80%;
+    }
+
+    .HeroBackdropContent {
+        width: 85%;
+        background: #141A25;
+        border-radius: calc(1% + .5vw);
     }
 }
