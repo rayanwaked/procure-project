@@ -1,6 +1,7 @@
 /* Import Styles */
 import "../../styles.css";
 import "./landing.css";
+import "./mobilelanding.css"
 
 /* Import Files */
 // @ts-ignore

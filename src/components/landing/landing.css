@@ -18,27 +18,8 @@ body {
     text-align: left;
 }
 
-/* For Mobile */
-@media (max-width: 480px) {
-    .LandingHeadline {
-        margin: 0;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: left;
-    }
-}
-
 .LandingHeadlineText {
     width: 50%;
-}
-
-@media (max-width: 480px) {
-    .LandingHeadlineText {
-        width: 90%;
-    }
 }
 
 /* Header Text and Subtext */
@@ -46,13 +27,6 @@ body {
     color: white;
     margin: 18vh 0 0 0;
     font-size: calc(100% + 2vw);
-}
-
-@media (max-width: 480px) {
-    .LandingHeader {
-        margin: 10vh 0 0 0;
-        font-size: calc(100% + 3vw);
-    }
 }
 
 .LandingText {
@@ -85,12 +59,6 @@ body {
 
     /* Styling */
     background: #2663FF
-}
-
-@media (max-width: 480px) {
-    .LandingPrimaryButton {
-        width: 50vw;
-    }
 }
 
 .LandingPrimaryButtonText {
@@ -132,10 +100,4 @@ body {
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
     border-radius: calc(1% + .5vw);
 
-}
-
-@media (max-width: 480px) {
-    .HeroBackdrop {
-        width: 90%;
-    }
 }
