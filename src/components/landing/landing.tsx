@@ -32,7 +32,14 @@ export default function Landing() {
 
                 {/* Hero Content */}
                 <div className="HeroBackdrop">
-
+                    <div className="HeroBackdropContent"
+                         style={{marginTop: "-2vw"}}></div>
+                    <div className="HeroBackdropContent"
+                         style={{height: "12vh"}}></div>
+                    <div className="HeroBackdropContent"
+                         style={{height: "10vw"}}></div>
+                    <div className="HeroBackdropContent"
+                         style={{height: "15vw", marginBottom: "-4vh"}}></div>
                 </div>
 
             </div>
