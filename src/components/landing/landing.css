@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 480px) {
     .LandingHeadlineText {
-        width: 98%;
+        width: 90%;
     }
 }
 
@@ -51,6 +51,7 @@ body {
 @media (max-width: 480px) {
     .LandingHeader {
         margin: 10vh 0 0 0;
+        font-size: calc(100% + 3vw);
     }
 }
 
@@ -84,6 +85,12 @@ body {
 
     /* Styling */
     background: #2663FF
+}
+
+@media (max-width: 480px) {
+    .LandingPrimaryButton {
+        width: 50vw;
+    }
 }
 
 .LandingPrimaryButtonText {
@@ -129,6 +136,6 @@ body {
 
 @media (max-width: 480px) {
     .HeroBackdrop {
-        width: 98%;
+        width: 90%;
     }
 }
