@@ -13,20 +13,49 @@ body {
     margin-top: 10vh;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 15vw;
-    align-items: center;
+    text-align: left;
+}
+
+/* For Mobile */
+@media (max-width: 480px) {
+    .LandingHeadline {
+        margin: 0;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: left;
+    }
+}
+
+.LandingHeadlineText {
+    width: 50%;
+}
+
+@media (max-width: 480px) {
+    .LandingHeadlineText {
+        width: 70%;
+    }
 }
 
 /* Header Text and Subtext */
 .LandingHeader {
     color: white;
     margin: 18vh 0 0 0;
-    font-size: calc(100% + 3vw);
+    font-size: calc(100% + 2vw);
+}
+
+@media (max-width: 480px) {
+    .LandingHeader {
+        margin: 10vh 0 0 0;
+    }
 }
 
 .LandingText {
-    color: gray;
+    color: #7E8597;
     margin-top: 2vh;
     font-size: calc(10% + 1vw);
 }
@@ -37,7 +66,6 @@ body {
     margin-top: 3vh;
 
     display: flex;
-    justify-content: center;
     align-items: center;
     gap: 1vw;
 }
@@ -45,8 +73,8 @@ body {
 .LandingPrimaryButton {
     /* Shape */
     height: 5vh;
-    width: 12vw;
-    border-radius: calc(.5% + .5vw);
+    width: 10vw;
+    border-radius: calc(.5% + 10vw);
     border-width: 0px;
 
     /* Aligning Children */
@@ -55,13 +83,11 @@ body {
     justify-content: center;
 
     /* Styling */
-    background: rgb(58, 180, 133);
-    background: linear-gradient(90deg, rgba(58, 180, 133, 1) 0%, rgba(29, 190, 253, 1) 100%);
+    background: #2663FF
 }
 
 .LandingPrimaryButtonText {
     color: white;
-    font-weight: bold;
     font-size: 1vw;
 }
 
@@ -91,4 +117,18 @@ body {
 /* Hero Image */
 .HeroImage {
     margin-top: 10vh;
+}
+
+.HeroBackdrop {
+    width: 40vw;
+    height: 55vh;
+    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+    border-radius: calc(1% + .5vw);
+
+}
+
+@media (max-width: 480px) {
+    .HeroBackdrop {
+        width: 70%;
+    }
 }

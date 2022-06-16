@@ -12,23 +12,28 @@ export default function Landing() {
         <div className="Landing">
             <div className={"LandingHeadline"}>
                 {/* Landing Headers */}
-                <div>
+                <div className="LandingHeadlineText">
+
                     <div>
-                        <h1 className={"LandingHeader"}> Next-gen communication <br /> tools modern business </h1>
-                        <p className={"LandingText"}> Learn more about how we can bring your supplychain into the 21st
+                        <h1 className={"LandingHeader"}> Supply chain simplified.</h1>
+                        <p className={"LandingText"}> Learn more about how we can bring your supply chain into the 21st
                                                       century. </p>
                     </div>
 
                     {/* Landing Buttons */}
                     <div className="LandingButtons">
                         <button className={"LandingPrimaryButton"}>
-                            <p className={"LandingPrimaryButtonText"}>Get Access</p>
-                        </button>
-                        <button className={"LandingSecondaryButton"}>
-                            <p className={"LandingSecondaryButtonText"}>View Features</p>
+                            <p className={"LandingPrimaryButtonText"}>Join Waitlist</p>
                         </button>
                     </div>
+
                 </div>
+
+                {/* Hero Content */}
+                <div className="HeroBackdrop">
+
+                </div>
+
             </div>
         </div>
     );
