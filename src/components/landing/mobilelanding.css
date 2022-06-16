@@ -1,4 +1,9 @@
 @media (max-width: 480px) {
+
+    .Landing {
+        margin: 0 8vw 0 8vw;
+    }
+
     .LandingHeadline {
         margin: 0;
 
