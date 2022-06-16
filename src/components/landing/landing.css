@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 480px) {
     .LandingHeadlineText {
-        width: 70%;
+        width: 90%;
     }
 }
 
@@ -129,6 +129,6 @@ body {
 
 @media (max-width: 480px) {
     .HeroBackdrop {
-        width: 70%;
+        width: 90%;
     }
 }
