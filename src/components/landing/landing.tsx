@@ -36,7 +36,7 @@ export default function Landing() {
                 <div className="HeroBackdrop">
 
                     <div className="HeroBackdropContent"
-                         style={{marginTop: "-4vhx"}}></div>
+                         style={{marginTop: "-4vh"}}></div>
 
                     <div className="HeroBackdropContent"
                          style={{height: "12vh"}}></div>
