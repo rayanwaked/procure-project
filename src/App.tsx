@@ -2,17 +2,15 @@
 import "./styles.css";
 
 /* Import Files */
-import Dashboard from "./components/dashboard/dashboard";
-import Navigation from "./components/global/navigation/navigation";
+import Landing from "./components/landing/landing"
 
 /* Code */
 export default function App() {
-  return (
-    <div className="App">
-      <div className="Dashboard">
-        <Navigation />
-        <Dashboard />
-      </div>
-    </div> /* App */
-  );
+    return (
+        <div className="App">
+            <div className="Dashboard">
+                <Landing />
+            </div>
+        </div> /* App */
+    );
 }
