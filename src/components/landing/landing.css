@@ -89,13 +89,24 @@ body {
     font-size: 1vw;
 }
 
+.LandingTestamonial {
+    margin-top: 4vh;
+
+    width: 33vw;
+    height: 15vh;
+    background: #141A25;
+    border-radius: calc(1% + .5vw);
+}
+
 /* Hero Image */
 .HeroImage {
     margin-top: 10vh;
 }
 
 .HeroBackdrop {
-    width: 40vw;
+    margin-top: 10vh;
+
+    width: 35vw;
     height: 55vh;
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
     border-radius: calc(1% + .5vw);
