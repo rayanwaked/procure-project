@@ -37,7 +37,7 @@ body {
 
 @media (max-width: 480px) {
     .LandingHeadlineText {
-        width: 90%;
+        width: 98%;
     }
 }
 
@@ -75,7 +75,7 @@ body {
     height: 5vh;
     width: 10vw;
     border-radius: calc(.5% + 10vw);
-    border-width: 0px;
+    border-width: 0;
 
     /* Aligning Children */
     display: flex;
@@ -96,7 +96,7 @@ body {
     height: 5vh;
     width: 12vw;
     border-radius: calc(.5% + .5vw);
-    border-width: 0px;
+    border-width: 0;
 
     /* Aligning Children */
     display: flex;
@@ -129,6 +129,6 @@ body {
 
 @media (max-width: 480px) {
     .HeroBackdrop {
-        width: 90%;
+        width: 98%;
     }
 }
