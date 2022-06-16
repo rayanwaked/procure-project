@@ -16,11 +16,20 @@
 
     .LandingHeader {
         margin: 10vh 0 0 0;
-        font-size: calc(100% + 4vw);
+        font-size: calc(100% + 6vw);
+    }
+
+    .LandingText {
+        font-size: calc(100% + 1vw);
     }
 
     .LandingPrimaryButton {
         width: 50vw;
+        height: 6vh;
+    }
+
+    .LandingPrimaryButtonText {
+        font-size: calc(100% + 1vw);
     }
 
     .LandingButtons {
