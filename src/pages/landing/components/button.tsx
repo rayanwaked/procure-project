@@ -14,27 +14,20 @@ const LandingButton = () => {
         event: React.MouseEvent<HTMLButtonElement>
     ) => {
         const btn: HTMLButtonElement = event.currentTarget;
-        btn.style.border = "none";
         btn.style.backgroundColor = "#2663FF";
-    };
-
-    // This function will be triggered when the mouse pointer clicks on the button
-    const buttonMouseOnClickHandler = (
-        event: React.MouseEvent<HTMLButtonElement>
-    ) => {
-        const btn: HTMLButtonElement = event.currentTarget;
-        btn.style.backgroundColor = "#1759ff"
     };
 
     return (
         <div>
-            <button
-                onMouseOver={buttonMouseOverHandler}
-                onMouseOut={buttonMouseOutHandler}
-                onClick={buttonMouseOnClickHandler}
-                className="LandingPrimaryButton">
-                <p className="LandingPrimaryButtonText">Join wait list</p>
-            </button>
+            <a href="https://apple.com"
+               id="LandingTextAnchor">
+                <button
+                    onMouseOver={buttonMouseOverHandler}
+                    onMouseOut={buttonMouseOutHandler}
+                    className="LandingPrimaryButton">
+                    <p className="LandingPrimaryButtonText">Join wait list</p>
+                </button>
+            </a>
         </div>
     );
 };

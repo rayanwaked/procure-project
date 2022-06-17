@@ -58,12 +58,17 @@ body {
     justify-content: center;
 
     /* Styling */
-    background: #2663FF
+    background: #2663FF;
+
+    /* Change cursor to pointer */
+    cursor: pointer;
 }
 
+/* Landing Button Text */
 .LandingPrimaryButtonText {
     color: white;
     font-size: 18px;
+    font-family: 'DM Sans', regular, sans-serif;
 }
 
 .LandingSecondaryButton {
@@ -85,8 +90,12 @@ body {
 
 .LandingSecondaryButtonText {
     color: white;
-    font-weight: bold;
-    font-size: 1vw;
+    font-size: 18px;
+    font-family: 'DM Sans', regular, sans-serif;
+}
+
+#LandingTextAnchor {
+    text-decoration: none;
 }
 
 /* Testimonial */
@@ -101,6 +110,15 @@ body {
 
 .LandingTestimonialContent {
     display: flex;
+}
+
+.LandingTestimonialImage {
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-left: 30px;
 }
 
 .LandingTestimonialText {

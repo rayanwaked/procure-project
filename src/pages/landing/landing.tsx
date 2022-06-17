@@ -34,14 +34,7 @@ export default function Landing() {
 
                             <div>
                                 <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
-                                     style={{
-                                         width: "8vh",
-                                         height: "8vh",
-                                         borderRadius: "100%",
-                                         objectFit: "cover",
-                                         marginTop: "20px",
-                                         marginLeft: "30px"
-                                     }}
+                                     className="LandingTestimonialImage"
                                      alt="headshot photo" />
                             </div>
 
