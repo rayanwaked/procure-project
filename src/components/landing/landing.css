@@ -95,8 +95,7 @@ body {
     margin-top: 4vh;
 
     width: 33vw;
-    min-height: 139px;
-    max-height: 400px;
+    height: auto;
     background: #141A25;
     border-radius: 16px;
 }

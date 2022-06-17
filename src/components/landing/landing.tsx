@@ -51,7 +51,7 @@ export default function Landing() {
                                    style={{
                                        fontSize: "13px",
                                        marginTop: "-2px",
-                                       paddingBottom: "10px"
+                                       paddingBottom: "20px"
                                    }}>
                                     McKensey Woods, CEO, Mckensey & Co.</p>
                             </div>
