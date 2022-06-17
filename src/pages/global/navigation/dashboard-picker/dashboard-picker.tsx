@@ -3,7 +3,7 @@ import "../../../../styles.css";
 import "./dashboard-picker.css";
 
 /* Import Icons */
-import {DropdownIcon} from "../../../../../src/assets/navigation/dropdown";
+import {DropdownIcon} from "../../../../assets/navigation/dropdown";
 
 /* Code */
 export default function DashboardPicker() {
