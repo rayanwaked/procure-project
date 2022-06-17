@@ -25,7 +25,7 @@ const LandingButton = () => {
                     onMouseOver={buttonMouseOverHandler}
                     onMouseOut={buttonMouseOutHandler}
                     className="LandingPrimaryButton">
-                    <p className="LandingPrimaryButtonText">Join wait list</p>
+                    <p className="LandingPrimaryButtonText">Join mailing list</p>
                 </button>
             </a>
         </div>

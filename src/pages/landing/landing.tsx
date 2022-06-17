@@ -77,8 +77,8 @@ export default function Landing() {
 
                         <div className="HeroCenter">
                             <div style={{marginTop: "23px", marginBottom: "-12px"}}><SuccessIcon /></div>
-                            <p className="InvoicePaidLargeText">Invoice Paid</p>
-                            <p className="InvoicePaidSmallText">Invoice #1334545 has been paid!</p>
+                            <p className="InvoicePaidLargeText">Invoice Added</p>
+                            <p className="InvoicePaidSmallText">Invoice #1334545 has been added!</p>
                         </div>
 
                     </div>
