@@ -28,8 +28,9 @@ export default function Landing() {
                         </button>
                     </div>
 
-                    <div className="LandingTestamonial">
-                        <div className="LandingTestamonialContent">
+                    {/* Testimonial */}
+                    <div className="LandingTestimonial">
+                        <div className="LandingTestimonialContent">
 
                             <div>
                                 <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
@@ -40,14 +41,15 @@ export default function Landing() {
                                          objectFit: "cover",
                                          marginTop: "20px",
                                          marginLeft: "30px"
-                                     }} />
+                                     }}
+                                     alt="headshot photo" />
                             </div>
 
                             <div style={{display: "grid"}}>
-                                <p className="LandingTestamonialText">
+                                <p className="LandingTestimonialText">
                                     “A testimonial that absolutely nails the value
                                     proposition in a sentence or two”. </p>
-                                <p className="LandingTestamonialText"
+                                <p className="LandingTestimonialText"
                                    style={{
                                        fontSize: "13px",
                                        marginTop: "-2px",
@@ -65,16 +67,16 @@ export default function Landing() {
                 <div className="HeroBackdrop">
 
                     <div className="HeroBackdropContent"
-                         style={{marginTop: "-4vh"}}></div>
+                         style={{marginTop: "-4vh", minHeight: "144px"}}></div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "12vh"}}></div>
+                         style={{height: "12vh", minHeight: "102px"}}></div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "10vw"}}></div>
+                         style={{height: "10vw", minHeight: "151px"}}></div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "15vw", marginBottom: "-4vh"}}></div>
+                         style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}></div>
 
                 </div>
             </div>

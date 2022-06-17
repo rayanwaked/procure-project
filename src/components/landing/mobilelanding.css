@@ -31,6 +31,7 @@
     .LandingPrimaryButton {
         width: 50vw;
         height: 6vh;
+        min-height: 55px;
     }
 
     .LandingPrimaryButtonText {
@@ -43,7 +44,7 @@
         align-items: center;
     }
 
-    .LandingTestamonial {
+    .LandingTestimonial {
         margin-top: 10vh;
 
         width: 100%;
@@ -51,7 +52,8 @@
 
     .HeroBackdrop {
         width: 100%;
-        height: 40vh;
+        height: 60vh;
+        min-height: 560px;
     }
 
     .HeroBackdropContent {
