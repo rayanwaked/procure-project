@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
 body {
     background: #10151C
 }
@@ -26,13 +28,13 @@ body {
 .LandingHeader {
     color: white;
     margin: 18vh 0 0 0;
-    font-size: calc(100% + 2vw);
+    font-size: 48px;
 }
 
 .LandingText {
     color: #7E8597;
     margin-top: 2vh;
-    font-size: calc(10% + 1vw);
+    font-size: 21px;
 }
 
 /* Landing Buttons */
@@ -48,7 +50,7 @@ body {
 .LandingPrimaryButton {
     /* Shape */
     height: 5vh;
-    width: 10vw;
+    width: 178px;
     border-radius: calc(.5% + 10vw);
     border-width: 0;
 
@@ -63,7 +65,7 @@ body {
 
 .LandingPrimaryButtonText {
     color: white;
-    font-size: 1vw;
+    font-size: 18px;
 }
 
 .LandingSecondaryButton {
@@ -93,9 +95,25 @@ body {
     margin-top: 4vh;
 
     width: 33vw;
-    height: 15vh;
+    min-height: 139px;
+    max-height: 400px;
     background: #141A25;
-    border-radius: calc(1% + .5vw);
+    border-radius: 16px;
+}
+
+.LandingTestamonialContent {
+    display: flex;
+}
+
+.LandingTestamonialText {
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+    color: #7E8597;
+    font-size: 18px;
+    font-family: 'DM Sans', sans-serif;
+
 }
 
 /* Hero Image */
@@ -106,7 +124,7 @@ body {
 .HeroBackdrop {
     margin-top: 10vh;
 
-    width: 35vw;
+    width: 400vw;
     height: 55vh;
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
     border-radius: calc(1% + .5vw);
@@ -121,8 +139,8 @@ body {
 }
 
 .HeroBackdropContent {
-    width: 25vw;
+    width: 26vw;
     height: 15vh;
     background: #141A25;
-    border-radius: calc(1% + .5vw);
+    border-radius: 16px;
 }
