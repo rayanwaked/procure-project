@@ -7,8 +7,7 @@ import "./mobilelanding.css"
 import {SuccessIcon} from "../../assets/landing/success";
 
 /* Import Files */
-// @ts-ignore
-import heroImage from "../../assets/landing/hero.png";
+import LandingButton from "./components/button";
 
 /* Code */
 export default function Landing() {
@@ -26,11 +25,7 @@ export default function Landing() {
 
                     {/* Landing Buttons */}
                     <div className="LandingButtons">
-
-                        <button className={"LandingPrimaryButton"}>
-                            <p className={"LandingPrimaryButtonText"}>Join Waitlist</p>
-                        </button>
-
+                        <LandingButton />
                     </div>
 
                     {/* Testimonial */}
@@ -60,7 +55,7 @@ export default function Landing() {
                                        marginTop: "-2px",
                                        paddingBottom: "20px"
                                    }}>
-                                    McKensey Woods, CEO, Mckensey & Co.</p>
+                                    McKinsey Woods, CEO, McKinsey & Co.</p>
                             </div>
 
                         </div>

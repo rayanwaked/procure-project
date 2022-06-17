@@ -2,7 +2,7 @@
 import "./styles.css";
 
 /* Import Files */
-import Landing from "./components/landing/landing"
+import Landing from "./pages/landing/landing"
 
 /* Code */
 export default function App() {
