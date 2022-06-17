@@ -67,7 +67,20 @@ export default function Landing() {
 
                     <div className="HeroBackdropContent"
                          id="HeroFinance"
-                         style={{height: "12vh", minHeight: "102px"}}>
+                         style={{height: "12vh", minHeight: "104px"}}>
+
+                        <div id="HeroFinanceContent">
+                            <p className="HeroFinanceSmallText">Ordered</p>
+                            <p className="HeroFinanceLargeText">23</p>
+                        </div>
+                        <div id="HeroFinanceContent">
+                            <p className="HeroFinanceSmallText">Shipped</p>
+                            <p className="HeroFinanceLargeText">12</p>
+                        </div>
+                        <div id="HeroFinanceContent">
+                            <p className="HeroFinanceSmallText">Delivered</p>
+                            <p className="HeroFinanceLargeText">57</p>
+                        </div>
 
                     </div>
 

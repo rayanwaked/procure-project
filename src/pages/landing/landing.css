@@ -189,7 +189,32 @@ body {
 
 /* Hero Finance and Elements */
 #HeroFinance {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
 
+#HeroFinanceContent {
+    margin-top: 12px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroFinanceLargeText {
+    font-size: 22px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #FFFFFF;
+}
+
+.HeroFinanceSmallText {
+    margin-top: 10px;
+    margin-bottom: -14px;
+    text-align: left;
+
+    font-size: 16px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #6A7183;
 }
 
 /* Hero Invoice Paid and Elements */

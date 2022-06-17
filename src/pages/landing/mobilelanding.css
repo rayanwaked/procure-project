@@ -1,4 +1,4 @@
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 
     /* General Landing Page Layout */
     .Landing {
@@ -64,5 +64,17 @@
     .HeroBackdropContent {
         width: 85%;
         background: #141A25;
+    }
+
+    .HeroFinanceLargeText {
+        margin-top: 20px;
+
+        font-size: 18px;
+    }
+
+    .HeroFinanceSmallText {
+        margin-top: 16px;
+
+        font-size: 12px;
     }
 }
