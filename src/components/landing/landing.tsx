@@ -3,6 +3,9 @@ import "../../styles.css";
 import "./landing.css";
 import "./mobilelanding.css"
 
+/* Import Icons */
+import {SuccessIcon} from "../../assets/landing/success";
+
 /* Import Files */
 // @ts-ignore
 import heroImage from "../../assets/landing/hero.png";
@@ -23,9 +26,11 @@ export default function Landing() {
 
                     {/* Landing Buttons */}
                     <div className="LandingButtons">
+
                         <button className={"LandingPrimaryButton"}>
                             <p className={"LandingPrimaryButtonText"}>Join Waitlist</p>
                         </button>
+
                     </div>
 
                     {/* Testimonial */}
@@ -67,16 +72,34 @@ export default function Landing() {
                 <div className="HeroBackdrop">
 
                     <div className="HeroBackdropContent"
-                         style={{marginTop: "-4vh", minHeight: "144px"}}></div>
+                         id="HeroProfile"
+                         style={{marginTop: "-4vh", minHeight: "144px"}}>
+
+                    </div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "12vh", minHeight: "102px"}}></div>
+                         id="HeroFinance"
+                         style={{height: "12vh", minHeight: "102px"}}>
+
+                    </div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "10vw", minHeight: "151px"}}></div>
+                         id="HeroInvoicePaid"
+                         style={{height: "11vw", minHeight: "151px"}}>
+
+                        <div className="HeroCenter">
+                            <div style={{marginTop: "23px", marginBottom: "-12px"}}><SuccessIcon /></div>
+                            <p className="InvoicePaidLargeText">Invoice Paid</p>
+                            <p className="InvoicePaidSmallText">Invoice #1334545 has been paid!</p>
+                        </div>
+
+                    </div>
 
                     <div className="HeroBackdropContent"
-                         style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}></div>
+                         id="HeroPaymentHistory"
+                         style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>
+
+                    </div>
 
                 </div>
             </div>

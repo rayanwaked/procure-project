@@ -89,6 +89,7 @@ body {
     font-size: 1vw;
 }
 
+/* Testimonial */
 .LandingTestimonial {
     margin-top: 4vh;
 
@@ -114,13 +115,14 @@ body {
 
 }
 
-/* Hero Image */
+/* Hero Backdrop */
 .HeroImage {
     margin-top: 10vh;
 }
 
 .HeroBackdrop {
     margin-top: 10vh;
+    margin-bottom: 10vh;
 
     width: 400vw;
     height: 55vh;
@@ -141,4 +143,46 @@ body {
     height: 15vh;
     background: #141A25;
     border-radius: 16px;
+}
+
+/* Hero Content */
+.HeroCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Profile and Elements */
+#HeroProfile {
+
+}
+
+/* Hero Finance and Elements */
+#HeroFinance {
+
+}
+
+/* Hero Invoice Paid and Elements */
+#HeroInvoicePaid {
+
+}
+
+.InvoicePaidLargeText {
+    margin-bottom: -2px;
+
+    font-size: 22px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #FFFFFF;
+}
+
+.InvoicePaidSmallText {
+    font-size: 13px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #6A7183;
+}
+
+/* Hero Payment History and Elements */
+#HeroPaymentHistory {
+
 }
