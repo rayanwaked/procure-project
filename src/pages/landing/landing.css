@@ -157,7 +157,7 @@ body {
 }
 
 /* Hero Animation */
-@keyframes slideInFromBottom {
+@keyframes SlideInFromBottom {
     0% {
         transform: translateY(80px);
     }
@@ -169,7 +169,7 @@ body {
 .HeroAnimation {
     animation-name: SlideInFromBottom;
     animation-duration: 1s;
-    animation-iteration-count: infinite;
+    animation-iteration-count: 1;
 }
 
 .HeroBackdropContent {

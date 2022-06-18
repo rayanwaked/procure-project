@@ -58,11 +58,11 @@ export default function Landing() {
                 </div>
 
                 {/* Hero Content */}
-                <div className="HeroBackdrop"
+                <div className="HeroBackdrop HeroAnimation"
                      id="HeroBackdrop">
 
                     {/* Hero Profile Card */}
-                    <div className="HeroBackdropContent"
+                    <div className="HeroBackdropContent HeroAnimation"
                          id="HeroProfile"
                          style={{marginTop: "-4vh", minHeight: "144px"}}>
 
@@ -81,7 +81,7 @@ export default function Landing() {
                     </div>
 
                     {/* Hero Finance Card */}
-                    <div className="HeroBackdropContent"
+                    <div className="HeroBackdropContent HeroAnimation"
                          id="HeroFinance"
                          style={{height: "12vh", minHeight: "104px"}}>
 
@@ -101,7 +101,7 @@ export default function Landing() {
                     </div>
 
                     {/* Hero Invoice Paid Card */}
-                    <div className="HeroBackdropContent"
+                    <div className="HeroBackdropContent HeroAnimation"
                          id="HeroInvoicePaid"
                          style={{height: "11vw", minHeight: "151px"}}>
 
@@ -114,7 +114,7 @@ export default function Landing() {
                     </div>
 
                     {/* Hero Payment History Card */}
-                    <div className="HeroBackdropContent"
+                    <div className="HeroBackdropContent HeroAnimation"
                          id="HeroPaymentHistory"
                          style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>
 
