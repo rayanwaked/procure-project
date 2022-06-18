@@ -118,6 +118,7 @@ export default function Landing() {
                          id="HeroPaymentHistory"
                          style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>
 
+                        {/* Payment History Title and Search Bar */}
                         <div className="HeroPaymentHistoryContent">
                             <p className="HeroPaymentHistoryLargeText">Order History</p>
                             <div className="HeroPaymentHistorySearchBar">
@@ -125,8 +126,55 @@ export default function Landing() {
                             </div>
                         </div>
 
-                    </div>
+                        {/* Payment History Content Labels */}
+                        <div className="HeroPaymentHistoryContent" style={{marginTop: "-5px"}}>
+                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>TRANSACTION ID</p>
+                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>DATE</p>
+                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>AMOUNT</p>
+                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>STATUS</p>
+                        </div>
 
+                        {/* Payment History Content */}
+                        <div className="HeroPaymentHistoryRow">
+
+                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>99  99999 99752</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>99  99999 99753</p>
+                            </div>
+
+                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/12</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/13</p>
+                            </div>
+
+                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>$12,950</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>$33,740</p>
+                            </div>
+
+                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                                <p className="HeroPaymentHistorySmallText" style={{
+                                    fontSize: "14px",
+                                    color: "white",
+                                    backgroundColor: "#49D078",
+                                    width: "58px",
+                                    borderRadius: "10px",
+                                    margin: "10px 0 0 0",
+                                    padding: "4px 0px 4px 0px",
+                                    alignContent: "flex-end"}}>Posted</p>
+                                <p className="HeroPaymentHistorySmallText" style={{
+                                    fontSize: "14px",
+                                    color: "white",
+                                    backgroundColor: "#49D078",
+                                    width: "58px",
+                                    margin: "20px 0 0 0",
+                                    padding: "4px 0px 4px 0px",
+                                    borderRadius: "10px"}}>Posted</p>
+                            </div>
+
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
