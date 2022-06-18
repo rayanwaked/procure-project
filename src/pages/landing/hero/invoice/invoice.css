@@ -1,0 +1,75 @@
+/* Hero Backdrop */
+.HeroImage {
+    margin-top: 10vh;
+}
+
+.HeroBackdrop {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    width: 400vw;
+    height: 55vh;
+    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+    border-radius: calc(1% + .5vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5vh;
+}
+
+/* Hero Animation */
+@keyframes SlideInFromBottom {
+    0% {
+        transform: translateY(80px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.HeroAnimation {
+    animation-name: SlideInFromBottom;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.HeroBackdropContent {
+    width: 26vw;
+    height: 15vh;
+    background: #141A25;
+    border-radius: 16px;
+}
+
+/* Hero Content */
+.HeroCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Invoice Paid and Elements */
+#HeroInvoicePaid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.InvoicePaidLargeText {
+    margin-bottom: -2px;
+
+    font-size: 22px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #FFFFFF;
+}
+
+.InvoicePaidSmallText {
+    font-size: 13px;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #6A7183;
+}

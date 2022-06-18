@@ -17,43 +17,6 @@
         text-align: center;
     }
 
-    .LandingHeadlineText {
-        width: 90%;
-    }
-
-    /* Header Text and Subtext */
-    .LandingHeader {
-        margin: 10vh 0 0 0;
-        font-size: calc(100% + 6vw);
-    }
-
-    .LandingText {
-        font-size: calc(100% + 1vw);
-    }
-
-    /* Landing Buttons */
-    .LandingPrimaryButton {
-        width: 50vw;
-        height: 6vh;
-        min-height: 55px;
-    }
-
-    .LandingPrimaryButtonText {
-        font-size: calc(100% + 1vw);
-    }
-
-    .LandingButtons {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    /* Testimonial */
-    .LandingTestimonial {
-        margin-top: 10vh;
-        width: 100%;
-    }
-
     /* Hero */
     .HeroBackdrop {
         width: 100%;
@@ -64,30 +27,6 @@
     .HeroBackdropContent {
         width: 85%;
         background: #141A25;
-    }
-
-    .HeroProfileImage {
-        margin-left: 4.4vw;
-    }
-
-    .HeroProfileName {
-
-    }
-
-    .HeroProfileEmail {
-        font-size: 14px;
-    }
-
-    .HeroFinanceLargeText {
-        margin-top: 20px;
-
-        font-size: 18px;
-    }
-
-    .HeroFinanceSmallText {
-        margin-top: 16px;
-
-        font-size: 12px;
     }
 
     .HeroPaymentHistory {
