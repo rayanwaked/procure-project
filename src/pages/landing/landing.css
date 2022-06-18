@@ -266,6 +266,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #HeroFinanceContent {
@@ -293,7 +294,10 @@ body {
 
 /* Hero Invoice Paid and Elements */
 #HeroInvoicePaid {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
 
 .InvoicePaidLargeText {

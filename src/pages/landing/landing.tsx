@@ -64,7 +64,7 @@ export default function Landing() {
                     {/* Hero Profile Card */}
                     <div className="HeroBackdropContent HeroAnimation"
                          id="HeroProfile"
-                         style={{marginTop: "-4vh", minHeight: "144px"}}>
+                         style={{marginTop: "-4vh", minHeight: "144px", maxHeight: "160px"}}>
 
                         <div className="HeroProfileContent">
                             <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80"
@@ -110,7 +110,7 @@ export default function Landing() {
                          style={{height: "11vw", minHeight: "151px"}}>
 
                         <div className="HeroCenter">
-                            <div style={{marginTop: "23px", marginBottom: "-12px"}}><SuccessIcon /></div>
+                            <div style={{marginBottom: "-12px"}}><SuccessIcon /></div>
                             <p className="InvoicePaidLargeText">Invoice Added</p>
                             <p className="InvoicePaidSmallText">Invoice #1334545 has been added!</p>
                         </div>
@@ -120,7 +120,7 @@ export default function Landing() {
                     {/* Hero Payment History Card */}
                     <div className="HeroBackdropContent HeroAnimation"
                          id="HeroPaymentHistory"
-                         style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>
+                         style={{height: "15vw", minHeight: "205px", maxHeight: "210px", marginBottom: "-4vh"}}>
 
                         {/* Payment History Title and Search Bar */}
                         <div className="HeroPaymentHistoryContent">
