@@ -5,6 +5,7 @@ import "./mobilelanding.css"
 
 /* Import Icons */
 import {SuccessIcon} from "../../assets/landing/success";
+import {MailIcon} from "../../assets/landing/mail";
 
 /* Import Files */
 import LandingButton from "./components/button";
@@ -57,14 +58,29 @@ export default function Landing() {
                 </div>
 
                 {/* Hero Content */}
-                <div className="HeroBackdrop">
+                <div className="HeroBackdrop"
+                     id="HeroBackdrop">
 
+                    {/* Hero Profile Card */}
                     <div className="HeroBackdropContent"
                          id="HeroProfile"
                          style={{marginTop: "-4vh", minHeight: "144px"}}>
 
+                        <div className="HeroProfileContent">
+                            <img src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2080&q=80"
+                                 className="HeroProfileImage"
+                                 alt="headshot photo" />
+                            <div className="HeroProfileContentDetails">
+
+                                <p className="HeroProfileName">James Wilson</p>
+                                <p className="HeroProfileEmail"><MailIcon />&nbsp;&nbsp;james@wilson.co</p>
+
+                            </div>
+                        </div>
+
                     </div>
 
+                    {/* Hero Finance Card */}
                     <div className="HeroBackdropContent"
                          id="HeroFinance"
                          style={{height: "12vh", minHeight: "104px"}}>
@@ -84,6 +100,7 @@ export default function Landing() {
 
                     </div>
 
+                    {/* Hero Invoice Paid Card */}
                     <div className="HeroBackdropContent"
                          id="HeroInvoicePaid"
                          style={{height: "11vw", minHeight: "151px"}}>
@@ -96,6 +113,7 @@ export default function Landing() {
 
                     </div>
 
+                    {/* Hero Payment History Card */}
                     <div className="HeroBackdropContent"
                          id="HeroPaymentHistory"
                          style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>

@@ -156,6 +156,7 @@ body {
     gap: 1.5vh;
 }
 
+/* Hero Animation */
 @keyframes slideInFromBottom {
     0% {
         transform: translateY(80px);
@@ -165,9 +166,13 @@ body {
     }
 }
 
-.HeroBackdropContent {
-    animation: .8s ease-out 0s 1 slideInFromBottom;
+.HeroAnimation {
+    animation-name: SlideInFromBottom;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
 
+.HeroBackdropContent {
     width: 26vw;
     height: 15vh;
     background: #141A25;
@@ -184,14 +189,68 @@ body {
 
 /* Hero Profile and Elements */
 #HeroProfile {
+    display: flex;
+    justify-content: flex-start;
+}
 
+.HeroProfileImage {
+    margin-left: 1.4vw;
+
+    width: 7vh;
+    min-width: 54px;
+    height: 7vh;
+    min-height: 54px;
+
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.HeroProfileContent {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.HeroProfileContentDetails {
+    margin-left: 17px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.HeroProfileName {
+    margin-top: 26px;
+    margin-bottom: -22px;
+
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+@media (max-width: 570px) {
+    .HeroProfileName {
+        font-size: 20px;
+    }
+}
+
+.HeroProfileEmail {
+    display: flex;
+    align-items: center;
+
+    margin-top: 26px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #6A7183;
 }
 
 /* Hero Finance and Elements */
 #HeroFinance {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 }
 
 #HeroFinanceContent {
