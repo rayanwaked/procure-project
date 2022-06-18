@@ -118,6 +118,13 @@ export default function Landing() {
                          id="HeroPaymentHistory"
                          style={{height: "15vw", minHeight: "205px", marginBottom: "-4vh"}}>
 
+                        <div className="HeroPaymentHistoryContent">
+                            <p className="HeroPaymentHistoryLargeText">Order History</p>
+                            <div className="HeroPaymentHistorySearchBar">
+                                <p className="HeroPaymentHistorySmallText" style={{marginLeft: "12px", color: "#6A7183"}}>Search</p>
+                            </div>
+                        </div>
+
                     </div>
 
                 </div>

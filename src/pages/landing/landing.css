@@ -297,5 +297,41 @@ body {
 
 /* Hero Payment History and Elements */
 #HeroPaymentHistory {
+    display: flex;
+    flex-direction: column;
+}
 
+.HeroPaymentHistoryContent {
+    margin-top: 7px;
+    margin-left: 27px;
+    margin-right: 27px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroPaymentHistoryLargeText {
+    font-size: 18px;
+    font-family: 'DM Sans', serif;
+    white-space: nowrap;
+    margin-right: 16px;
+    color: white;
+}
+
+.HeroPaymentHistorySmallText {
+    font-size: 16px;
+    font-family: 'DM Sans', serif;
+}
+
+.HeroPaymentHistorySearchBar {
+    height: 33px;
+    width: 160px;
+    background: #222b3a;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
