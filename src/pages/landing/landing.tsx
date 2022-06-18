@@ -71,13 +71,17 @@ export default function Landing() {
                                  className="HeroProfileImage"
                                  alt="headshot photo" />
                             <div className="HeroProfileContentDetails">
-
                                 <p className="HeroProfileName">James Wilson</p>
                                 <p className="HeroProfileEmail"><MailIcon />&nbsp;&nbsp;james@wilson.co</p>
 
+                                <div style={{display: "flex", flexDirection: "row", gap: "12px"}}>
+                                <p className="HeroProfileSmallText" id="HeroProfileFeatures" style={{marginTop: "0"}}>Added Orders</p>
+                                <p className="HeroProfileSmallText" id="HeroProfileFeatures" style={{marginTop: "0", color: "#6A7183", backgroundColor: "rgba(255,255,255,0.05)"}}>Invoices</p>
+                                <p className="HeroProfileSmallText" id="HeroProfileFeatures" style={{marginTop: "0", color: "#6A7183", backgroundColor: "rgba(255,255,255,0.05)"}}>Messages</p>
+                                </div>
                             </div>
-                        </div>
 
+                        </div>
                     </div>
 
                     {/* Hero Finance Card */}
@@ -137,39 +141,28 @@ export default function Landing() {
                         {/* Payment History Content */}
                         <div className="HeroPaymentHistoryRow">
 
+                            {/* Payment History Transaction ID */}
                             <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>99  99999 99752</p>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>99  99999 99753</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", whiteSpace: "nowrap"}}>99  99999 99752</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", whiteSpace: "nowrap"}}>99  99999 99753</p>
                             </div>
 
+                            {/* Payment History Dates */}
                             <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
                                 <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/12</p>
                                 <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/13</p>
                             </div>
 
+                            {/* Payment History Amounts */}
                             <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>$12,950</p>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>$33,740</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$12,950</p>
+                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$33,740</p>
                             </div>
 
+                            {/* Payment History Statuses */}
                             <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
-                                <p className="HeroPaymentHistorySmallText" style={{
-                                    fontSize: "14px",
-                                    color: "white",
-                                    backgroundColor: "#49D078",
-                                    width: "58px",
-                                    borderRadius: "10px",
-                                    margin: "10px 0 0 0",
-                                    padding: "4px 0px 4px 0px",
-                                    alignContent: "flex-end"}}>Posted</p>
-                                <p className="HeroPaymentHistorySmallText" style={{
-                                    fontSize: "14px",
-                                    color: "white",
-                                    backgroundColor: "#49D078",
-                                    width: "58px",
-                                    margin: "20px 0 0 0",
-                                    padding: "4px 0px 4px 0px",
-                                    borderRadius: "10px"}}>Posted</p>
+                                <p className="HeroPaymentHistorySmallText" id="HeroPaymentHistoryStatus">Posted</p>
+                                <p className="HeroPaymentHistorySmallText" id="HeroPaymentHistoryStatus" style={{marginTop: "19px"}}>Posted</p>
                             </div>
 
                         </div>
