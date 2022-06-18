@@ -3,7 +3,10 @@ import "./styles.css";
 
 /* Import Files */
 import Landing from "./pages/landing/landing"
-
+/*
+import Navigation from "./pages/global/navigation/navigation"
+import Dashboard from "./pages/dashboard/dashboard";
+*/
 /* Code */
 export default function App() {
     return (

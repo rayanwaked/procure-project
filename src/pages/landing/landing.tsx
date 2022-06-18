@@ -133,9 +133,9 @@ export default function Landing() {
                         {/* Payment History Content Labels */}
                         <div className="HeroPaymentHistoryContent" style={{marginTop: "-5px"}}>
                             <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>TRANSACTION ID</p>
-                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>DATE</p>
+                            <p className="HeroPaymentHistorySmallText" id="NoMobile" style={{fontSize: "14px", color: "#6A7183"}}>DATE</p>
                             <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>AMOUNT</p>
-                            <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>STATUS</p>
+                            <p className="HeroPaymentHistorySmallText" id="NoMobile" style={{fontSize: "14px", color: "#6A7183"}}>STATUS</p>
                         </div>
 
                         {/* Payment History Content */}
@@ -148,19 +148,19 @@ export default function Landing() {
                             </div>
 
                             {/* Payment History Dates */}
-                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                            <div className="HeroPaymentHistory" id="NoMobile" style={{marginTop: "-5px"}}>
                                 <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/12</p>
                                 <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white"}}>10/13</p>
                             </div>
 
                             {/* Payment History Amounts */}
                             <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$12,950</p>
-                                <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$33,740</p>
+                                <p className="HeroPaymentHistorySmallText HeroPaymentHistoryMobile" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$12,950</p>
+                                <p className="HeroPaymentHistorySmallText HeroPaymentHistoryMobile" style={{fontSize: "14px", color: "white", marginLeft: "6px"}}>$33,740</p>
                             </div>
 
                             {/* Payment History Statuses */}
-                            <div className="HeroPaymentHistory" style={{marginTop: "-5px"}}>
+                            <div className="HeroPaymentHistory" id="NoMobile" style={{marginTop: "-5px"}}>
                                 <p className="HeroPaymentHistorySmallText" id="HeroPaymentHistoryStatus">Posted</p>
                                 <p className="HeroPaymentHistorySmallText" id="HeroPaymentHistoryStatus" style={{marginTop: "19px"}}>Posted</p>
                             </div>
