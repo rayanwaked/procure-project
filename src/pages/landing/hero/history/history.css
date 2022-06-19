@@ -1,0 +1,149 @@
+/* Hero Backdrop */
+
+.HeroBackdrop {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    width: 400vw;
+    height: 55vh;
+    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+    border-radius: calc(1% + .5vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5vh;
+}
+
+/* Hero Animation */
+@keyframes SlideInFromBottom {
+    0% {
+        transform: translateY(80px);
+        opacity: 0.0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1.0;
+    }
+}
+
+.HeroAnimation {
+    animation-name: SlideInFromBottom;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.HeroBackdropContent {
+    width: 26vw;
+    height: 15vh;
+    background: #141A25;
+    border-radius: 16px;
+}
+
+/* Hero Payment History and Elements */
+#HeroPaymentHistory {
+    display: flex;
+    flex-direction: column;
+}
+
+.HeroPaymentHistoryHeader {
+    margin-top: 7px;
+    margin-left: 27px;
+    margin-right: 27px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HeroPaymentHistoryContent {
+    margin-top: 7px;
+    margin-left: 27px;
+    margin-right: 27px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.HeroPaymentHistoryLargeText {
+    font-size: 18px;
+    font-family: 'DM Sans', serif;
+    white-space: nowrap;
+    margin-right: 16px;
+    color: white;
+}
+
+.HeroPaymentHistorySmallText {
+    font-size: 14px;
+    font-family: 'DM Sans', serif;
+    color: white;
+}
+
+#HeroPaymentHistoryStatus {
+    font-size: 14px;
+    color: white;
+    background-color: #49D078;
+    width: 58px;
+    border-radius: 20px;
+    margin: 10px 0 0 0;
+    padding: 4px 0 4px 0;
+    align-content: flex-end;
+}
+
+.HeroPaymentHistorySearchBar {
+    height: 33px;
+    width: 10vw;
+    background: #222b3a;
+    border-radius: 5px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.HeroPaymentHistoryRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.HeroPaymentHistory {
+    margin-top: 0;
+    margin-left: 27px;
+    margin-right: 27px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+@media (max-width: 1264px) {
+
+    /* General Landing Page Layout */
+    .Landing {
+        margin: 0 6vw 0 6vw;
+    }
+
+    /* Hero */
+    .HeroBackdrop {
+        width: 100%;
+        height: 60vh;
+        min-height: 560px;
+    }
+
+    .HeroBackdropContent {
+        width: 85%;
+        background: #141A25;
+    }
+
+    #NoMobile {
+        visibility: hidden;
+    }
+}

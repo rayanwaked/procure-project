@@ -8,9 +8,6 @@ body {
 }
 
 /* Hero Backdrop */
-.HeroImage {
-    margin-top: 10vh;
-}
 
 .HeroBackdrop {
     margin-top: 10vh;
@@ -55,75 +52,6 @@ body {
     border-radius: 16px;
 }
 
-/* Hero Payment History and Elements */
-#HeroPaymentHistory {
-    display: flex;
-    flex-direction: column;
-}
-
-.HeroPaymentHistoryContent {
-    margin-top: 7px;
-    margin-left: 27px;
-    margin-right: 27px;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.HeroPaymentHistoryLargeText {
-    font-size: 18px;
-    font-family: 'DM Sans', serif;
-    white-space: nowrap;
-    margin-right: 16px;
-    color: white;
-}
-
-.HeroPaymentHistorySmallText {
-    font-size: 16px;
-    font-family: 'DM Sans', serif;
-}
-
-#HeroPaymentHistoryStatus {
-    font-size: 14px;
-    color: white;
-    background-color: #49D078;
-    width: 58px;
-    border-radius: 20px;
-    margin: 10px 0 0 0;
-    padding: 4px 0 4px 0;
-    align-content: flex-end;
-}
-
-.HeroPaymentHistorySearchBar {
-    height: 33px;
-    width: 160px;
-    background: #222b3a;
-    border-radius: 5px;
-
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-.HeroPaymentHistoryRow {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-start;
-}
-
-.HeroPaymentHistory {
-    margin-top: 0;
-    margin-left: 27px;
-    margin-right: 27px;
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-}
-
 @media (max-width: 1000px) {
 
     /* General Landing Page Layout */
@@ -131,31 +59,11 @@ body {
         margin: 0 6vw 0 6vw;
     }
 
-    /* Headline Layout*/
-    .LandingHeadline {
-        margin: 0;
-
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-        align-items: center;
-        text-align: center;
-    }
-
     /* Hero */
     .HeroBackdrop {
         width: 100%;
         height: 60vh;
         min-height: 560px;
-    }
-
-    /* Hero Invoice Paid and Elements */
-    #HeroInvoicePaid {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        align-content: center;
     }
 
     .HeroBackdropContent {

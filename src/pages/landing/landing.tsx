@@ -57,6 +57,7 @@ export default function Landing() {
                          style={{height: "15vw", minHeight: "205px", maxHeight: "210px", marginBottom: "-4vh"}}>
                         <HeroHistory />
                     </div>
+
                 </div>
             </div>
         </div>
