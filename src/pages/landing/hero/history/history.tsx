@@ -47,8 +47,8 @@ export default function HeroHistory() {
 
                 <div style={{display: "flex", flexDirection: "column", alignContent: "flex-start"}}>
                     <p className="HeroPaymentHistorySmallText" style={{fontSize: "14px", color: "#6A7183"}}>STATUS</p>
-                    <p className="HeroPaymentHistorySmallText">Posted</p>
-                    <p className="HeroPaymentHistorySmallText" style={{marginTop: "5px"}}>Posted</p>
+                    <p className="HeroPaymentHistoryStatus">Posted</p>
+                    <p className="HeroPaymentHistoryStatus" style={{marginTop: "5px"}}>Posted</p>
                 </div>
 
 
