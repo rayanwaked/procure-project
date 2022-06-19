@@ -73,3 +73,19 @@
     font-family: 'DM Sans', regular, sans-serif;
     color: #6A7183;
 }
+
+@media (max-width: 1000px) {
+
+    /* Hero */
+    .HeroBackdrop {
+        width: 100%;
+        height: 60vh;
+        min-height: 560px;
+    }
+
+    .HeroBackdropContent {
+        width: 85%;
+        background: #141A25;
+    }
+
+}
