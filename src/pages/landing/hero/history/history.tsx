@@ -3,7 +3,6 @@ import "../../../../styles.css";
 import "./history.css";
 
 /* Import Icons */
-import {SearchIcon} from "../../../../assets/dashboard/search";
 
 /* Import Files */
 
@@ -15,8 +14,8 @@ export default function HeroHistory() {
             {/* Payment History Title and Search Bar */}
             <div className="HeroPaymentHistoryHeader">
                 <p className="HeroPaymentHistoryLargeText">Order History</p>
-                <div className="HeroPaymentHistorySearchBar">
-                    <p className="HeroPaymentHistorySmallText" style={{marginLeft: "12px", color: "#6A7183"}}>Search</p>
+                <div className="HeroPaymentHistorySearchBar NoMobile">
+                    <p className="HeroPaymentHistorySmallText NoMobile" style={{marginLeft: "12px", color: "#6A7183"}}>Search</p>
                 </div>
             </div>
 
