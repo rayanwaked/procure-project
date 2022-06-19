@@ -8,6 +8,7 @@ import {SuccessIcon} from "../../assets/landing/success";
 import {MailIcon} from "../../assets/landing/mail";
 
 /* Import Files */
+import LandingNavigation from "./navigation/navigation";
 import LandingText from "./landing-text/landingtext"
 import Testimonial from "./testimonial/testimonial";
 import HeroProfile from "./hero/profile/profile";
@@ -19,6 +20,7 @@ import HeroHistory from "./hero/history/history";
 export default function Landing() {
     return (
         <div className="Landing">
+            <LandingNavigation />
             <div className="LandingHeadline">
                 {/* Landing Headers */}
                 <div className="LandingHeadlineText">
