@@ -87,11 +87,11 @@
 
 .HeroPaymentHistoryStatus {
     font-size: 14px;
+    font-family: 'DM Sans', serif;
     color: white;
     background-color: #49D078;
     width: 58px;
     border-radius: 20px;
-    padding: 4px;
 }
 
 .HeroPaymentHistorySearchBar {
@@ -142,6 +142,9 @@
     }
 
     #NoMobile {
-        visibility: hidden;
+        display: none;
+    }
+    #NoTablet {
+        display: none;
     }
 }

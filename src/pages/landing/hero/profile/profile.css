@@ -127,7 +127,7 @@
     white-space: nowrap;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1600px) {
 
     /* Hero */
     .HeroBackdrop {
@@ -155,6 +155,8 @@
 
     .NoMobile {
         visibility: hidden;
+        width: 0;
+        margin-right: -10px;
     }
 
     #HeroProfileFeatures {
