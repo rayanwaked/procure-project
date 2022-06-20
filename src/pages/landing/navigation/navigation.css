@@ -13,9 +13,10 @@
 .LandingNavigationLogo {
     color: #fff;
     font-family: 'DM Sans', regular, sans-serif;
-    font-size: 20px;
+    font-size: 30px;
     font-weight: bold;
     margin-top: 48px;
+    box-sizing: border-box;
 }
 
 @media (min-width: 850px) {
@@ -25,12 +26,14 @@
         flex-direction: row;
         justify-content: flex-end;
         gap: 2vw;
+        box-sizing: border-box !important;
     }
 
     .LandingNavigationLink {
         color: #fff;
         font-family: 'DM Sans', regular, sans-serif;
         margin-top: 48px;
+
     }
 
     .LandingNavigationButton {
@@ -39,6 +42,8 @@
         padding-left: 16px;
         padding-right: 16px;
         border-radius: 100px;
+        height: 22px;
+
         display: flex;
         color: white;
         font-family: 'DM Sans', regular, sans-serif;
