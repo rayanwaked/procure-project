@@ -7,24 +7,14 @@ body {
     margin: 0 10vw 0 10vw;
 }
 
-/* Hero Backdrop */
-
-.HeroBackdrop {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
-
-    width: 400vw;
-    height: 55vh;
-    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
-    border-radius: calc(1% + .5vw);
+.LandingHeadline {
+    /* Margins */
+    margin-top: 2vh;
 
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 1.5vh;
+    justify-content: flex-start;
+    gap: 15vw;
+    text-align: left;
 }
 
 /* Hero Animation */

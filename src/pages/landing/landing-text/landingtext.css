@@ -1,13 +1,4 @@
 /* Headline Layout*/
-.LandingHeadline {
-    /* Margins */
-    margin-top: 10vh;
-
-    display: flex;
-    justify-content: flex-start;
-    gap: 15vw;
-    text-align: left;
-}
 
 .LandingHeadlineText {
     width: 50%;
