@@ -4,9 +4,6 @@ import "./landing.css";
 import "./mobilelanding.css"
 
 /* Import Icons */
-import {SuccessIcon} from "../../assets/landing/success";
-import {MailIcon} from "../../assets/landing/mail";
-
 /* Import Files */
 import LandingNavigation from "./navigation/navigation";
 import LandingText from "./landing-text/landingtext"
@@ -15,6 +12,7 @@ import HeroProfile from "./hero/profile/profile";
 import HeroFinance from "./hero/finance/finance";
 import HeroInvoice from "./hero/invoice/invoice";
 import HeroHistory from "./hero/history/history";
+import LandingFooter from "./footer/footer";
 
 /* Code */
 export default function Landing() {
@@ -43,7 +41,7 @@ export default function Landing() {
                     <div className="HeroBackdropContent HeroAnimation"
                          id="HeroFinance"
                          style={{height: "12vh", minHeight: "104px"}}>
-                        <HeroFinance/>
+                        <HeroFinance />
                     </div>
 
                     {/* Hero Invoice Paid Card */}
@@ -61,6 +59,10 @@ export default function Landing() {
                     </div>
 
                 </div>
+            </div>
+            {/* Footer */}
+            <div className="Footer">
+                <LandingFooter />
             </div>
         </div>
     );

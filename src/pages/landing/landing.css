@@ -42,7 +42,7 @@ body {
     border-radius: 16px;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1100px) {
 
     /* General Landing Page Layout */
     .Landing {
