@@ -12,11 +12,11 @@ export default function LandingNavigation() {
                 <p className="LandingNavigationLogo">PROCURE</p>
             </div>
             <div className="LandingNavigationLinks LandingNavigationNoMobile">
-                <p className="LandingNavigationLink">Home</p>
-                <p className="LandingNavigationLink">Features</p>
-                <p className="LandingNavigationLink">Pricing</p>
-                <p className="LandingNavigationLink">About</p>
-                <p className="LandingNavigationButton">Sign Up</p>
+                <a href=""><p className="LandingNavigationLink">Home</p></a>
+                <a href=""><p className="LandingNavigationLink">Features</p></a>
+                <a href=""><p className="LandingNavigationLink">Pricing</p></a>
+                <a href=""><p className="LandingNavigationLink">About</p></a>
+                <a href=""><p className="LandingNavigationButton">Sign Up</p></a>
             </div>
         </div>
     );
