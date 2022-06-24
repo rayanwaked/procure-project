@@ -1,11 +1,5 @@
-.LandingFooterBackground {
-    width: 100vw;
-    margin: 0 -10vw 0 -10vw;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
-
 .LandingFooter {
+    display: flex;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -39,7 +33,6 @@
     color: #777F93;
     padding: 0;
     margin-bottom: 7px;
-    margin-left: 1px;
 }
 
 a {
@@ -48,19 +41,12 @@ a {
 
 @media (max-width: 768px) {
 
-    .LandingFooterBackground {
-        width: 100vw;
-        
-        padding-top: 5vh;
-        padding-bottom: 5vh;
-    }
-
     .LandingFooter {
         display: flex;
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        margin-top: 15vh;
+        margin-top: 10vh;
         margin-bottom: 5vh;
     }
 
