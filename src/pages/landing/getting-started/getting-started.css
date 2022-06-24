@@ -1,3 +1,18 @@
+.LandingGettingStartedHeadline {
+    color: white;
+    font-family: 'DM Sans', regular, sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 62px;
+}
+
+.LandingGettingStartedSubHeadline {
+    color: #FA0369;
+    font-family: 'DM Sans', regular, sans-serif;
+    font-size: 16px;
+    margin-bottom: 18px;
+}
+
 .LandingGettingStarted {
     display: flex;
     flex-direction: row;
@@ -20,8 +35,7 @@
     padding: 6px 14px 6px 14px;
     border-radius: 100px;
     background: #FA0369;
-    margin: 0;
-    margin-top: 26px;
+    margin: 26px 0 0;
 
     color: white;
     font-size: 14px;

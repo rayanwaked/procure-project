@@ -9,7 +9,7 @@ export default function LandingNavigation() {
     return (
         <div className="LandingNavigation">
             <div className="LandingNavigationLogos">
-                <p className="LandingNavigationLogo">Procurity</p>
+                <p className="LandingNavigationLogo">PROCURE</p>
             </div>
             <div className="LandingNavigationLinks LandingNavigationNoMobile">
                 <p className="LandingNavigationLink">Home</p>
