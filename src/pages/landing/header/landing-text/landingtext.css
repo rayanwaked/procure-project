@@ -1,0 +1,116 @@
+/* Headline Layout*/
+
+.LandingHeadlineText {
+    width: 50%;
+}
+
+/* Header Text and Subtext */
+.LandingHeader {
+    color: white;
+    margin: 18vh 0 0 0;
+    font-size: 48px;
+}
+
+.LandingText {
+    color: #7E8597;
+    margin-top: 2vh;
+    font-size: 21px;
+}
+
+/* Landing Buttons */
+.LandingButtons {
+    /* Margins */
+    margin-top: 3vh;
+
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.LandingPrimaryButton {
+    /* Shape */
+    height: 5vh;
+    width: 178px;
+    border-radius: calc(.5% + 10vw);
+    border-width: 0;
+
+    /* Aligning Children */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Styling */
+    background: #2663FF;
+
+    /* Change cursor to pointer */
+    cursor: pointer;
+}
+
+/* Landing Button Text */
+.LandingPrimaryButtonText {
+    color: white;
+    font-size: 18px;
+    font-family: 'DM Sans', regular, sans-serif;
+}
+
+.LandingSecondaryButton {
+    /* Shape */
+    height: 5vh;
+    width: 12vw;
+    border-radius: calc(.5% + .5vw);
+    border-width: 0;
+
+    /* Aligning Children */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* Styling */
+    background: #2f2f2f;
+
+}
+
+.LandingSecondaryButtonText {
+    color: white;
+    font-size: 18px;
+    font-family: 'DM Sans', regular, sans-serif;
+}
+
+#LandingTextAnchor {
+    text-decoration: none;
+}
+
+@media (max-width: 1000px) {
+
+    /* Header Text and Subtext */
+    .LandingHeader {
+        margin: 10vh 0 0 0;
+        font-size: calc(100% + 6vw);
+    }
+
+    .LandingHeadlineText {
+        width: 90%;
+    }
+
+    .LandingText {
+        font-size: calc(100% + 1vw);
+    }
+
+    /* Landing Buttons */
+    .LandingPrimaryButton {
+        width: 50vw;
+        height: 6vh;
+        min-height: 55px;
+    }
+
+    .LandingPrimaryButtonText {
+        font-size: calc(100% + 1vw);
+    }
+
+    .LandingButtons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}

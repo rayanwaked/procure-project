@@ -1,0 +1,180 @@
+/* Hero Backdrop */
+.HeroImage {
+    margin-top: 10vh;
+}
+
+.HeroBackdrop {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+
+    width: 400vw;
+    height: 55vh;
+    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+    border-radius: calc(1% + .5vw);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1.5vh;
+}
+
+/* Hero Animation */
+@keyframes SlideInFromBottom {
+    0% {
+        transform: translateY(80px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.HeroAnimation {
+    animation-name: SlideInFromBottom;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+}
+
+.HeroBackdropContent {
+    width: 26vw;
+    height: 15vh;
+    background: #141A25;
+    border-radius: 16px;
+}
+
+/* Hero Content */
+.HeroCenter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Hero Profile and Elements */
+#HeroProfile {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.HeroProfileImage {
+    margin-left: 1.4vw;
+
+    width: 7vh;
+    min-width: 54px;
+    height: 7vh;
+    min-height: 54px;
+
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+}
+
+.HeroProfileContent {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.HeroProfileContentDetails {
+    margin-left: 17px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.HeroProfileName {
+    margin-top: 26px;
+    margin-bottom: -22px;
+
+    font-size: 22px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+@media (max-width: 570px) {
+    .HeroProfileName {
+        font-size: 20px;
+    }
+}
+
+.HeroProfileEmail {
+    display: flex;
+    align-items: center;
+
+    margin-top: 26px;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #6A7183;
+}
+
+.HeroProfileSmallText {
+    font-size: 16px;
+    font-family: 'DM Sans', serif;
+}
+
+#HeroProfileFeatures {
+    font-size: 14px;
+    color: white;
+    background-color: #FA0369;
+    border-radius: 20px;
+    margin: 10px 0 0 0;
+    padding: 4px 10px 4px 10px;
+    align-content: flex-end;
+    white-space: nowrap;
+}
+
+@media (max-width: 1600px) {
+
+    /* Hero */
+    .HeroBackdrop {
+        width: 100%;
+        height: 60vh;
+        min-height: 560px;
+    }
+
+    .HeroBackdropContent {
+        width: 85%;
+        background: #141A25;
+    }
+
+    .HeroProfileImage {
+        margin-left: 4.4vw;
+    }
+
+    .HeroProfileName {
+
+    }
+
+    .HeroProfileEmail {
+        font-size: 14px;
+    }
+
+    .NoMobile {
+        visibility: hidden;
+        width: 0;
+        margin-right: -10px;
+    }
+
+    #HeroProfileFeatures {
+        padding: 4px 10px 4px 10px;
+
+        font-size: 14px;
+        color: white;
+        background-color: #FA0369;
+        border-radius: 20px;
+        white-space: nowrap;
+    }
+
+}
+
+@media (max-width: 1400px) {
+
+    .NoTablet {
+        visibility: hidden;
+    }
+
+}

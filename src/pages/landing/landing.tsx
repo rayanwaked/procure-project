@@ -6,13 +6,16 @@ import "./mobilelanding.css"
 /* Import Icons */
 /* Import Files */
 import LandingNavigation from "./navigation/navigation";
-import LandingText from "./landing-text/landingtext"
-import Testimonial from "./testimonial/testimonial";
-import HeroProfile from "./hero/profile/profile";
-import HeroFinance from "./hero/finance/finance";
-import HeroInvoice from "./hero/invoice/invoice";
-import HeroHistory from "./hero/history/history";
+import LandingText from "./header/landing-text/landingtext"
+import Testimonial from "./header/testimonial/testimonial";
+
+import HeroProfile from "./header/hero/profile/profile";
+import HeroFinance from "./header/hero/finance/finance";
+import HeroInvoice from "./header/hero/invoice/invoice";
+import HeroHistory from "./header/hero/history/history";
+
 import LandingFooter from "./footer/footer";
+import GettingStarted from "./getting-started/getting-started";
 
 /* Code */
 export default function Landing() {
@@ -60,6 +63,12 @@ export default function Landing() {
 
                 </div>
             </div>
+
+            {/* Getting Started */}
+            <div>
+                <GettingStarted />
+            </div>
+
             {/* Footer */}
             <div className="Footer">
                 <LandingFooter />
