@@ -31,7 +31,7 @@ export default function Landing() {
 
                 {/* Hero Content */}
                 <div className="DontShowOnDesktop"
-                     style={{marginTop: "-5vh", marginBottom: "-15vh"}}>
+                     style={{marginTop: "-2vh", marginBottom: "-12vh"}}>
                     <p className="LandingGettingStartedSubHeadline DontShowOnDesktop">GORGEOUS DESIGN</p>
                     <p className="LandingGettingStartedHeadline DontShowOnDesktop">Beauty without sacrificing
                                                                                    functionality</p>
