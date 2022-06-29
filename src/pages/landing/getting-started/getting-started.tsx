@@ -11,7 +11,7 @@ import {DashboardIcon} from "../../../assets/landing/dashboard"
 /* Code */
 export default function GettingStarted() {
     return (
-        <div>
+        <div className="GettingStartedContainer">
             <p className="LandingGettingStartedSubHeadline">START IN SECONDS</p>
             <p className="LandingGettingStartedHeadline">Get started in three easy steps</p>
             <div className="LandingGettingStarted">
