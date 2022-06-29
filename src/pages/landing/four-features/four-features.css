@@ -1,0 +1,105 @@
+.FourFeaturesContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 180px;
+}
+
+/* Text */
+.FourFeaturesContentAlignment {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 10px;
+}
+
+.FourFeatureTextAlignment {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.FourFeaturesNumber {
+    font-family: 'DM Sans', regular, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #777F93;
+    opacity: 40%;
+}
+
+.FourFeaturesHeader {
+    font-family: 'DM Sans', regular, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+
+.FourFeaturesText {
+    font-family: 'DM Sans', regular, sans-serif;
+    font-size: 18px;
+    color: #7E8597;
+}
+
+/* Images */
+.FourFeaturesImage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FourFeaturesImageBackground {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 558px;
+    width: 558px;
+    border-radius: 100%;
+    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+}
+
+.FourFeaturesInvoiceDetails1 {
+    height: 603px;
+    width: 388px;
+    border-radius: 15px;
+    background: #141A25;
+    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+    transform: rotate(2deg);
+    transform-origin: bottom right;
+}
+
+.FourFeaturesInvoiceDetails2 {
+    height: 603px;
+    width: 388px;
+    border-radius: 15px;
+    background: #141A25;
+    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+    transform: rotate(2deg);
+    transform-origin: bottom right;
+}
+
+.FourFeaturesInvoiceDetails3 {
+    height: 603px;
+    width: 388px;
+    border-radius: 15px;
+    background: #141A25;
+    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+    transform: rotate(0deg);
+    transform-origin: bottom right;
+}
+
+@media (max-width: 1000px) {
+    .FourFeaturesContainer {
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 200px;
+        margin-bottom: 180px;
+
+        text-align: center;
+        align-items: center;
+    }
+}

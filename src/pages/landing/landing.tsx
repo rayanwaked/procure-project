@@ -16,6 +16,7 @@ import HeroHistory from "./header/hero/history/history";
 
 import LandingFooter from "./footer/footer";
 import GettingStarted from "./getting-started/getting-started";
+import FourFeatures from "./four-features/four-features";
 
 /* Code */
 export default function Landing() {
@@ -74,6 +75,11 @@ export default function Landing() {
             {/* Getting Started */}
             <div>
                 <GettingStarted />
+            </div>
+
+            {/* Four Features */}
+            <div>
+                <FourFeatures />
             </div>
 
             {/* Footer */}
