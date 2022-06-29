@@ -53,15 +53,21 @@
     justify-content: center;
     align-items: center;
 
-    height: 32vw;
-    width: 32vw;
+    height: 34vw;
+    min-height: 450px;
+    width: 34vw;
+    min-width: 450px;
+
     border-radius: 100%;
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
 }
 
 .FourFeaturesInvoiceDetails1 {
-    height: 56vh;
-    width: 21vw;
+    height: 34vw;
+    min-height: 500px;
+    width: 22vw;
+    min-width: 300px;
+
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
@@ -71,8 +77,11 @@
 }
 
 .FourFeaturesInvoiceDetails2 {
-    height: 56vh;
-    width: 21vw;
+    height: 34vw;
+    min-height: 500px;
+    width: 22vw;
+    min-width: 300px;
+
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
@@ -82,8 +91,11 @@
 }
 
 .FourFeaturesInvoiceDetails3 {
-    height: 56vh;
-    width: 21vw;
+    height: 34vw;
+    min-height: 500px;
+    width: 22vw;
+    min-width: 300px;
+
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
@@ -101,5 +113,25 @@
 
         text-align: center;
         align-items: center;
+    }
+
+    .FourFeaturesImageBackground {
+        min-width: 87vw;
+        min-height: 87vw;
+    }
+
+    .FourFeaturesInvoiceDetails1 {
+        min-height: 90vw;
+        min-width: 60vw;
+    }
+
+    .FourFeaturesInvoiceDetails2 {
+        min-height: 90vw;
+        min-width: 60vw;
+    }
+
+    .FourFeaturesInvoiceDetails3 {
+        min-height: 90vw;
+        min-width: 60vw;
     }
 }
