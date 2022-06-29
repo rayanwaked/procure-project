@@ -53,15 +53,15 @@
     justify-content: center;
     align-items: center;
 
-    height: 558px;
-    width: 558px;
+    height: 32vw;
+    width: 32vw;
     border-radius: 100%;
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
 }
 
 .FourFeaturesInvoiceDetails1 {
-    height: 603px;
-    width: 388px;
+    height: 56vh;
+    width: 21vw;
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
@@ -71,8 +71,8 @@
 }
 
 .FourFeaturesInvoiceDetails2 {
-    height: 603px;
-    width: 388px;
+    height: 56vh;
+    width: 21vw;
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
@@ -82,8 +82,8 @@
 }
 
 .FourFeaturesInvoiceDetails3 {
-    height: 603px;
-    width: 388px;
+    height: 56vh;
+    width: 21vw;
     border-radius: 15px;
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
