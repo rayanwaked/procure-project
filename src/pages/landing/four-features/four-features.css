@@ -72,7 +72,7 @@
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
 
-    transform: rotate(2deg);
+    transform: rotate(4deg);
     transform-origin: bottom right;
 }
 
@@ -86,7 +86,7 @@
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
 
-    transform: rotate(2deg);
+    transform: rotate(4deg);
     transform-origin: bottom right;
 }
 
@@ -100,8 +100,37 @@
     background: #141A25;
     box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
 
-    transform: rotate(0deg);
+    transform: rotate(-6deg);
     transform-origin: bottom right;
+}
+
+/* Invoice Detail Text and Image */
+.FourFeaturesInvoiceText {
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: white;
+
+    padding-top: 40px;
+}
+
+.FourFeaturesInvoiceSmallText {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #6A7183;
+
+    padding-top: 10px;
+    margin-bottom: -55px;
+}
+
+.FourFeaturesProfilePicture {
+    width: 10vh;
+    height: 10vh;
+    border-radius: 100%;
+    object-fit: cover;
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
 @media (max-width: 1000px) {

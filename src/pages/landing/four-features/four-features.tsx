@@ -56,7 +56,19 @@ export default function FourFeatures() {
                     <div className="FourFeaturesInvoiceDetails3">
                         <div className="FourFeaturesInvoiceDetails2">
                             <div className="FourFeaturesInvoiceDetails1">
+                                <p className="FourFeaturesInvoiceText">Invoice Details</p>
 
+                                <div>
+                                    <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
+                                         className="FourFeaturesProfilePicture"
+                                         alt="headshot photo" />
+                                </div>
+                                <p className="FourFeaturesInvoiceSmallText">Status: Paid</p>
+                                <p className="FourFeaturesInvoiceText">+$3,500</p>
+
+                                <p className="FourFeaturesInvoiceSmallText">Date</p>
+                                <p className="FourFeaturesInvoiceSmallText">Fees</p>
+                                <p className="FourFeaturesInvoiceSmallText">Total</p>
                             </div>
                         </div>
                     </div>
