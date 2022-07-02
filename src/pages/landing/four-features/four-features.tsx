@@ -66,9 +66,15 @@ export default function FourFeatures() {
                                 <p className="FourFeaturesInvoiceSmallText">Status: Paid</p>
                                 <p className="FourFeaturesInvoiceText">+$3,500</p>
 
-                                <p className="FourFeaturesInvoiceSmallText">Date</p>
-                                <p className="FourFeaturesInvoiceSmallText">Fees</p>
-                                <p className="FourFeaturesInvoiceSmallText">Total</p>
+                                <div>
+                                    <p className="FourFeaturesInvoiceSmallText"
+                                       style={{padding: "20px"}}>Date</p>
+                                    <p className="FourFeaturesInvoiceSmallText"
+                                       style={{padding: "20px"}}>Fees</p>
+                                    <p className="FourFeaturesInvoiceSmallText"
+                                       style={{padding: "20px"}}>Total</p>
+                                </div>
+
                             </div>
                         </div>
                     </div>
