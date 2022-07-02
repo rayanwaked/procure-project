@@ -163,4 +163,8 @@
         min-height: 90vw;
         min-width: 60vw;
     }
+
+    .FourFeaturesNoMobile {
+        display: none;
+    }
 }
