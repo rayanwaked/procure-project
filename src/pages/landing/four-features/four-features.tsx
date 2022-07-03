@@ -51,7 +51,7 @@ export default function FourFeatures() {
                     </div>
                 </div>
             </div>
-            <div className="FourFeaturesImage">
+            <div className="FourFeaturesImage HeroAnimation">
                 <div className="FourFeaturesImageBackground">
                     <div className="FourFeaturesInvoiceDetails3">
                         <div className="FourFeaturesInvoiceDetails2">
@@ -66,7 +66,7 @@ export default function FourFeatures() {
                                 <p className="FourFeaturesInvoiceSmallText">Status: Paid</p>
                                 <p className="FourFeaturesInvoiceText">+$3,500</p>
 
-                                <div>
+                                <div style={{display: "flex", flexDirection: "column", alignContent: "flex-start"}}>
                                     <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile"
                                        style={{padding: "20px"}}>Date</p>
                                     <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile"
