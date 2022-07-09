@@ -15,8 +15,8 @@ export default function FourFeatures() {
                     {/* Feature 01 */}
                     <p className="FourFeaturesNumber">01</p>
                     <div className="FourFeatureTextAlignment">
-                        <p className="FourFeaturesHeader">A simple header</p>
-                        <p className="FourFeaturesText">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+                        <p className="FourFeaturesHeader">Convenient</p>
+                        <p className="FourFeaturesText">Find everyone and everything <br /> that you need in one place.
                         </p>
                     </div>
                 </div>
@@ -25,8 +25,8 @@ export default function FourFeatures() {
                 <div className="FourFeaturesContentAlignment">
                     <p className="FourFeaturesNumber">02</p>
                     <div className="FourFeatureTextAlignment">
-                        <p className="FourFeaturesHeader">A simple header</p>
-                        <p className="FourFeaturesText">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+                        <p className="FourFeaturesHeader">Efficient</p>
+                        <p className="FourFeaturesText">Spend more time getting <br /> things done faster.
                         </p>
                     </div>
                 </div>
@@ -35,8 +35,8 @@ export default function FourFeatures() {
                 <div className="FourFeaturesContentAlignment">
                     <p className="FourFeaturesNumber">03</p>
                     <div className="FourFeatureTextAlignment">
-                        <p className="FourFeaturesHeader">A simple header</p>
-                        <p className="FourFeaturesText">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+                        <p className="FourFeaturesHeader">Simple</p>
+                        <p className="FourFeaturesText">Intuitive and easy to use. <br /> It doesn't take a genius.
                         </p>
                     </div>
                 </div>
@@ -45,8 +45,8 @@ export default function FourFeatures() {
                 <div className="FourFeaturesContentAlignment">
                     <p className="FourFeaturesNumber">04</p>
                     <div className="FourFeatureTextAlignment">
-                        <p className="FourFeaturesHeader">A simple header</p>
-                        <p className="FourFeaturesText">Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit.
+                        <p className="FourFeaturesHeader">Easy</p>
+                        <p className="FourFeaturesText">Get your workflow up and <br /> running in no time.
                         </p>
                     </div>
                 </div>
