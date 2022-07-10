@@ -51,30 +51,44 @@ export default function FourFeatures() {
                     </div>
                 </div>
             </div>
+
+            {/* Beginning of Cards */}
             <div className="FourFeaturesImage HeroAnimation">
                 <div className="FourFeaturesImageBackground">
                     <div className="FourFeaturesInvoiceDetails3">
                         <div className="FourFeaturesInvoiceDetails2">
                             <div className="FourFeaturesInvoiceDetails1">
+                                {/* Card Title */}
                                 <p className="FourFeaturesInvoiceText">Invoice Details</p>
-
+                                {/* Person Image */}
                                 <div>
                                     <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80"
                                          className="FourFeaturesProfilePicture"
                                          alt="headshot photo" />
                                 </div>
+
+                                {/* Status and Amount */}
                                 <p className="FourFeaturesInvoiceSmallText">Status: Paid</p>
                                 <p className="FourFeaturesInvoiceText">+$3,500</p>
 
+                                {/* Other Details */}
                                 <div style={{display: "flex", flexDirection: "column", alignContent: "flex-start"}}>
-                                    <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile"
-                                       style={{padding: "20px"}}>Date</p>
-                                    <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile"
-                                       style={{padding: "20px"}}>Fees</p>
-                                    <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile"
-                                       style={{padding: "20px"}}>Total</p>
+                                    {/* Date Details */}
+                                    <div style={{display: "flex", justifyContent: "space-around", gap: "0px", padding: "15px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Date</p>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile" style={{color: "white"}}>Oct. 28, 2022</p>
+                                    </div>
+                                    {/* Fee Details */}
+                                    <div style={{display: "flex", justifyContent: "space-around", gap: "47px", padding: "15px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Fees</p>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile" style={{color: "white"}}>$158.99</p>
+                                    </div>
+                                    {/* Total Details */}
+                                    <div style={{display: "flex", justifyContent: "space-around", gap: "47px", padding: "15px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Total</p>
+                                        <p className="FourFeaturesInvoiceSmallText Fou  rFeaturesNoMobile" style={{color: "white"}}>$573.99</p>
+                                    </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
