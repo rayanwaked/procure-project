@@ -53,10 +53,12 @@
     justify-content: center;
     align-items: center;
 
-    height: 34vw;
     min-height: 450px;
-    width: 34vw;
+    height: 40vw;
+    max-height: 700px;
     min-width: 450px;
+    width: 40vw;
+    max-width: 700px;
 
     border-radius: 100%;
     background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
@@ -64,9 +66,11 @@
 
 .FourFeaturesInvoiceDetails1 {
     height: 34vw;
-    min-height: 500px;
+    min-height: 600px;
+    max-height: 650px;
     width: 22vw;
-    min-width: 300px;
+    min-width: 350px;
+    max-width: 450px;
 
     border-radius: 15px;
     background: #141A25;
@@ -78,9 +82,11 @@
 
 .FourFeaturesInvoiceDetails2 {
     height: 34vw;
-    min-height: 500px;
+    min-height: 600px;
+    max-height: 650px;
     width: 22vw;
-    min-width: 300px;
+    min-width: 350px;
+    max-width: 450px;
 
     border-radius: 15px;
     background: #141A25;
@@ -92,9 +98,11 @@
 
 .FourFeaturesInvoiceDetails3 {
     height: 34vw;
-    min-height: 500px;
+    min-height: 600px;
+    max-height: 650px;
     width: 22vw;
-    min-width: 300px;
+    min-width: 350px;
+    max-width: 450px;
 
     border-radius: 15px;
     background: #141A25;
@@ -131,6 +139,14 @@
     object-fit: cover;
     margin-top: 20px;
     margin-bottom: 0;
+}
+
+.FourFeatureGraph {
+    height: 40px;
+    width: 32px;
+    border-radius: 6.34px;
+    background-color: #6A7183;
+    margin-top: 70px;
 }
 
 @media (max-width: 1000px) {

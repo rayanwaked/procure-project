@@ -86,8 +86,16 @@ export default function FourFeatures() {
                                     {/* Total Details */}
                                     <div style={{display: "flex", justifyContent: "space-around", gap: "47px", padding: "15px"}}>
                                         <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Total</p>
-                                        <p className="FourFeaturesInvoiceSmallText Fou  rFeaturesNoMobile" style={{color: "white"}}>$573.99</p>
+                                        <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile" style={{color: "white"}}>$573.99</p>
                                     </div>
+                                </div>
+                                {/* Price Graph */}
+                                <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "end", marginRight: "40px", marginLeft: "40px"}}>
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "40px"}} />
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "48px"}} />
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "54px"}} />
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "62px"}} />
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "70px", backgroundColor: "#49D078"}} />
                                 </div>
                             </div>
                         </div>
