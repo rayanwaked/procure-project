@@ -78,6 +78,7 @@ export default function FourFeatures() {
                                         <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Date</p>
                                         <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile" style={{color: "white"}}>Oct. 28, 2022</p>
                                     </div>
+
                                     {/* Fee Details */}
                                     <div style={{display: "flex", justifyContent: "space-around", gap: "47px", padding: "15px"}}>
                                         <p className="FourFeaturesInvoiceSmallText FourFeaturesNoMobile">Fees</p>
