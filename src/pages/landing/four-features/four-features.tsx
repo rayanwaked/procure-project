@@ -91,11 +91,25 @@ export default function FourFeatures() {
                                 </div>
                                 {/* Price Graph */}
                                 <div style={{display: "flex", justifyContent: "space-evenly", alignItems: "end", marginRight: "40px", marginLeft: "40px"}}>
-                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "40px"}} />
-                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "48px"}} />
-                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "54px"}} />
-                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "62px"}} />
-                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "70px", backgroundColor: "#49D078"}} />
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "40px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText2">04/22</p>
+                                    </div>
+
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "48px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText2">05/22</p>
+                                    </div>
+
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "54px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText2">06/22</p>
+                                    </div>
+
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "62px"}}>
+                                        <p className="FourFeaturesInvoiceSmallText2">07/22</p>
+                                    </div>
+
+                                    <div className="FourFeatureGraph FourFeaturesNoMobile" style={{height: "70px", backgroundColor: "#49D078"}}>
+                                        <p className="FourFeaturesInvoiceSmallText2">08/22</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

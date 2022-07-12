@@ -132,9 +132,21 @@
     margin-bottom: -55px;
 }
 
+.FourFeaturesInvoiceSmallText2 {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'DM Sans', regular, sans-serif;
+    color: #6A7183;
+
+    margin-bottom: -28px;
+    margin-left: -4px;
+}
+
 .FourFeaturesProfilePicture {
     width: 10vh;
+    max-width: 115px;
     height: 10vh;
+    max-height: 115px;
     border-radius: 100%;
     object-fit: cover;
     margin-top: 20px;
@@ -147,6 +159,9 @@
     border-radius: 6.34px;
     background-color: #6A7183;
     margin-top: 70px;
+
+    display: flex;
+    align-items: flex-end;
 }
 
 @media (max-width: 1000px) {
