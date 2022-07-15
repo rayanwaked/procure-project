@@ -48,70 +48,6 @@
     align-items: center;
 }
 
-.FourFeaturesImageBackground {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 450px;
-    height: 40vw;
-    max-height: 700px;
-    min-width: 450px;
-    width: 40vw;
-    max-width: 700px;
-
-    border-radius: 100%;
-    background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
-}
-
-.FourFeaturesInvoiceDetails1 {
-    height: 34vw;
-    min-height: 600px;
-    max-height: 650px;
-    width: 22vw;
-    min-width: 350px;
-    max-width: 450px;
-
-    border-radius: 15px;
-    background: #141A25;
-    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
-
-    transform: rotate(4deg);
-    transform-origin: bottom right;
-}
-
-.FourFeaturesInvoiceDetails2 {
-    height: 34vw;
-    min-height: 600px;
-    max-height: 650px;
-    width: 22vw;
-    min-width: 350px;
-    max-width: 450px;
-
-    border-radius: 15px;
-    background: #141A25;
-    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
-
-    transform: rotate(4deg);
-    transform-origin: bottom right;
-}
-
-.FourFeaturesInvoiceDetails3 {
-    height: 34vw;
-    min-height: 600px;
-    max-height: 650px;
-    width: 22vw;
-    min-width: 350px;
-    max-width: 450px;
-
-    border-radius: 15px;
-    background: #141A25;
-    box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
-
-    transform: rotate(-6deg);
-    transform-origin: bottom right;
-}
-
 /* Invoice Detail Text and Image */
 .FourFeaturesInvoiceText {
     font-size: 20px;
@@ -145,8 +81,11 @@
 .FourFeaturesProfilePicture {
     width: 10vh;
     max-width: 115px;
+    min-width: 80px;
     height: 10vh;
     max-height: 115px;
+    min-height: 80px;
+
     border-radius: 100%;
     object-fit: cover;
     margin-top: 20px;
@@ -164,6 +103,72 @@
     align-items: flex-end;
 }
 
+@media (min-width: 1001px) {
+    .FourFeaturesImageBackground {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        min-height: 450px;
+        height: 40vw;
+        max-height: 700px;
+        min-width: 450px;
+        width: 40vw;
+        max-width: 700px;
+
+        border-radius: 100%;
+        background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
+    }
+
+    .FourFeaturesInvoiceDetails1 {
+        height: 34vw;
+        min-height: 600px;
+        max-height: 650px;
+        width: 22vw;
+        min-width: 350px;
+        max-width: 450px;
+
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(4deg);
+        transform-origin: bottom right;
+    }
+
+    .FourFeaturesInvoiceDetails2 {
+        height: 34vw;
+        min-height: 600px;
+        max-height: 650px;
+        width: 22vw;
+        min-width: 350px;
+        max-width: 450px;
+
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(4deg);
+        transform-origin: bottom right;
+    }
+
+    .FourFeaturesInvoiceDetails3 {
+        height: 34vw;
+        min-height: 600px;
+        max-height: 650px;
+        width: 22vw;
+        min-width: 350px;
+        max-width: 450px;
+
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(-6deg);
+        transform-origin: bottom right;
+    }
+}
+
 @media (max-width: 1000px) {
     .FourFeaturesContainer {
         display: flex;
@@ -176,25 +181,71 @@
     }
 
     .FourFeaturesImageBackground {
-        min-width: 87vw;
-        min-height: 87vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        min-height: 300px;
+        height: 88vw;
+        max-height: 700px;
+        min-width: 300px;
+        width: 88vw;
+        max-width: 700px;
+
+        border-radius: 100%;
+        background: linear-gradient(180deg, #432371 0%, #FAAE7B 100%);
     }
 
     .FourFeaturesInvoiceDetails1 {
-        min-height: 90vw;
-        min-width: 60vw;
+        height: 86vw;
+        min-height: 400px;
+        max-height: 700px;
+        width: 52vw;
+        min-width: 200px;
+        max-width: 450px;
+
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(4deg);
+        transform-origin: bottom right;
     }
 
     .FourFeaturesInvoiceDetails2 {
-        min-height: 90vw;
-        min-width: 60vw;
+        height: 86vw;
+        min-height: 400px;
+        max-height: 700px;
+        width: 52vw;
+        min-width: 200px;
+        max-width: 450px;
+
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(4deg);
+        transform-origin: bottom right;
     }
 
     .FourFeaturesInvoiceDetails3 {
-        min-height: 90vw;
-        min-width: 60vw;
-    }
+        height: 86vw;
+        min-height: 400px;
+        max-height: 700px;
+        width: 52vw;
+        min-width: 200px;
+        max-width: 450px;
 
+        border-radius: 15px;
+        background: #141A25;
+        box-shadow: 0 0 40px -20px rgba(0, 0, 0, 0.53);
+
+        transform: rotate(-6deg);
+        transform-origin: bottom right;
+    }
+}
+
+@media (max-width: 670px) {
     .FourFeaturesNoMobile {
         display: none;
     }
