@@ -85,37 +85,35 @@ export default function Landing() {
                 </div>
 
                 {/* Hero Images */}
-                <BackgroundFadeInUpWhenVisible>
-                    {/* Hero Profile Card */}
-                    <FadeInUpWhenVisible>
-                        <div className="HeroBackdropContent"
-                             id="HeroProfile"
-                             style={{marginTop: "-4vh", minHeight: "144px", maxHeight: "160px"}}>
-                            <HeroProfile />
-                        </div>
+                {/* Hero Profile Card */}
+                <FadeInUpWhenVisible>
+                    <div className="HeroBackdropContent"
+                         id="HeroProfile"
+                         style={{marginTop: "-4vh", minHeight: "144px", maxHeight: "160px"}}>
+                        <HeroProfile />
+                    </div>
 
-                        {/* Hero Finance Card */}
-                        <div className="HeroBackdropContent"
-                             id="HeroFinance"
-                             style={{height: "12vh", minHeight: "104px"}}>
-                            <HeroFinance />
-                        </div>
+                    {/* Hero Finance Card */}
+                    <div className="HeroBackdropContent"
+                         id="HeroFinance"
+                         style={{height: "12vh", minHeight: "104px"}}>
+                        <HeroFinance />
+                    </div>
 
-                        {/* Hero Invoice Paid Card */}
-                        <div className="HeroBackdropContent"
-                             id="HeroInvoicePaid"
-                             style={{height: "11vw", minHeight: "151px"}}>
-                            <HeroInvoice />
-                        </div>
+                    {/* Hero Invoice Paid Card */}
+                    <div className="HeroBackdropContent"
+                         id="HeroInvoicePaid"
+                         style={{height: "11vw", minHeight: "151px"}}>
+                        <HeroInvoice />
+                    </div>
 
-                        {/* Hero Payment History Card */}
-                        <div className="HeroBackdropContent"
-                             id="HeroPaymentHistory"
-                             style={{height: "15vw", minHeight: "205px", maxHeight: "210px", marginBottom: "-4vh"}}>
-                            <HeroHistory />
-                        </div>
-                    </FadeInUpWhenVisible>
-                </BackgroundFadeInUpWhenVisible>
+                    {/* Hero Payment History Card */}
+                    <div className="HeroBackdropContent"
+                         id="HeroPaymentHistory"
+                         style={{height: "15vw", minHeight: "205px", maxHeight: "210px", marginBottom: "-4vh"}}>
+                        <HeroHistory />
+                    </div>
+                </FadeInUpWhenVisible>
             </div>
 
             {/* Getting Started */}
