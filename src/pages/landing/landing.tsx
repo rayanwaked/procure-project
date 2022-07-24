@@ -17,9 +17,12 @@ import HeroFinance from "./header/hero/finance/finance";
 import HeroInvoice from "./header/hero/invoice/invoice";
 import HeroHistory from "./header/hero/history/history";
 
-import LandingFooter from "./footer/footer";
 import GettingStarted from "./getting-started/getting-started";
 import FourFeatures from "./four-features/four-features";
+import Pricing from "./pricing/pricing";
+
+import LandingFooter from "./footer/footer";
+
 
 /* Custom Animation Function for Hero Background */
 function BackgroundFadeInUpWhenVisible({children}: { children: any }) {
@@ -124,6 +127,11 @@ export default function Landing() {
             {/* Four Features */}
             <div>
                 <FourFeatures />
+            </div>
+
+            {/* Pricing */}
+            <div>
+                <Pricing />
             </div>
 
             {/* Footer */}
