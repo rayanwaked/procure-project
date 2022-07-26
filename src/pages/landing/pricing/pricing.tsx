@@ -11,7 +11,7 @@ export default function Pricing() {
         <div className="GettingStartedContainer">
             <p className="LandingGettingStartedSubHeadline">SELECT YOUR PLAN</p>
             <p className="LandingGettingStartedHeadline">Pricing</p>
-            <div className="LandingGettingStarted">
+            <div className="Pricing">
                 <div className={"PricingGettingStartedBox"}>
                     <hr id={"pricingHR"} />
                     <div className={"PricingTextBox"}>
